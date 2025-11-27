@@ -1,0 +1,35 @@
+logging_wrapper -    ==== 20250331T124128-0400.  ['train_VS_033025.py']====
+
+logging_wrapper -    --- Configurations ---
+logging_wrapper - name = Indole4D
+suffix = 
+model_name = enet2s
+model_description = EfficientNet V2 s
+dataset_name = 033124_all_GP_molecules_4D
+dataset_description = 2800 moledules
+root_data_dir = ../Data4D
+fname_indole = 033124_all_GP_molecules_4D.pickle
+fname_act = 033124_all_molecules_GP_activities.csv
+result_dir = ../Output/Results
+checkpoint_dir = ../Output/Checkpoints
+logfile_dir = ../Output/Logs
+random_seed = 42
+classes = ('Low', 'Hight')
+epochs = 10
+batch_size = 64
+split_ratio = (0.8, 0.2)
+workers = 8
+lr = 0.001
+max_lr = 0.001
+pin_memory = True
+device = cuda:0
+n_gpu = 1
+dtype = <class 'torch.cuda.FloatTensor'>
+save_model = False
+
+logging_wrapper - 20250331T124129-0400
+   --- Dataset Info ---
+   images=1528, 382.
+logging_wrapper - 20250331T124129-0400:  Epoch 1/10:
+logging_wrapper -     epoch train loss = 0.719060. time = 3.1 seconds. lr=0.0008513399516232312
+logging_wrapper - test thing

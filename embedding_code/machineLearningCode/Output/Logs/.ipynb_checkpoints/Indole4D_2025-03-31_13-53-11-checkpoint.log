@@ -1,0 +1,65 @@
+logging_wrapper -    ==== 20250331T135311-0400.  ['train_VS_033025.py']====
+
+logging_wrapper -    --- Configurations ---
+logging_wrapper - name = Indole4D
+suffix = 
+model_name = enet2s
+model_description = EfficientNet V2 s
+dataset_name = 033124_all_GP_molecules_4D
+dataset_description = 2800 moledules
+root_data_dir = ../Data4D
+fname_indole = 033124_all_GP_molecules_4D.pickle
+fname_act = 033124_all_molecules_GP_activities.csv
+result_dir = ../Output/Results
+checkpoint_dir = ../Output/Checkpoints
+logfile_dir = ../Output/Logs
+random_seed = 42
+classes = ('Low', 'Hight')
+epochs = 10
+batch_size = 64
+split_ratio = (0.8, 0.2)
+workers = 8
+lr = 0.001
+max_lr = 0.001
+pin_memory = True
+device = cuda:0
+n_gpu = 1
+dtype = <class 'torch.cuda.FloatTensor'>
+save_model = False
+
+logging_wrapper - 20250331T135313-0400
+   --- Dataset Info ---
+   images=1528, 382.
+logging_wrapper - 20250331T135313-0400:  Epoch 1/10:
+logging_wrapper -     epoch train loss = 0.737604. time = 3.1 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.646707. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.675392670157068', 'f1_score: 0.7854671280276817', 'roc_auc_score: 0.5683132530120482']
+logging_wrapper - 20250331T135316-0400:  Epoch 2/10:
+logging_wrapper -     epoch train loss = 0.589847. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.584608. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7277486910994765', 'f1_score: 0.825503355704698', 'roc_auc_score: 0.6232530120481928']
+logging_wrapper - 20250331T135319-0400:  Epoch 3/10:
+logging_wrapper -     epoch train loss = 0.522331. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.553771. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7486910994764397', 'f1_score: 0.8421052631578947', 'roc_auc_score: 0.6783132530120483']
+logging_wrapper - 20250331T135323-0400:  Epoch 4/10:
+logging_wrapper -     epoch train loss = 0.470260. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 0.536117. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7486910994764397', 'f1_score: 0.8436482084690554', 'roc_auc_score: 0.6203614457831325']
+logging_wrapper - 20250331T135326-0400:  Epoch 5/10:
+logging_wrapper -     epoch train loss = 0.433986. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 0.494640. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7905759162303665', 'f1_score: 0.8717948717948718', 'roc_auc_score: 0.6883132530120483']
+logging_wrapper - 20250331T135329-0400:  Epoch 6/10:
+logging_wrapper -     epoch train loss = 0.400676. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 0.471337. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8892405063291139', 'roc_auc_score: 0.681867469879518']
+logging_wrapper - 20250331T135333-0400:  Epoch 7/10:
+logging_wrapper -     epoch train loss = 0.361363. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 0.489772. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7853403141361257', 'f1_score: 0.8698412698412699', 'roc_auc_score: 0.6897590361445783']
+logging_wrapper - 20250331T135336-0400:  Epoch 8/10:
+logging_wrapper -     epoch train loss = 0.336175. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 0.426834. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8219895287958116', 'f1_score: 0.8934169278996865', 'roc_auc_score: 0.7475903614457832']
+logging_wrapper - 20250331T135339-0400:  Epoch 9/10:

@@ -1,0 +1,1911 @@
+Index,MoleculeID,Origin,Activity
+0,0,Experimental Values,1.0
+1,0,Experimental Values,1.0
+2,0,Experimental Values,1.0
+3,0,Experimental Values,1.0
+4,0,Experimental Values,1.0
+5,0,Experimental Values,1.0
+6,0,Experimental Values,1.0
+7,0,Experimental Values,1.0
+8,0,Experimental Values,1.0
+9,0,Experimental Values,1.0
+10,1,Experimental Values,1.5
+11,1,Experimental Values,1.5
+12,1,Experimental Values,1.5
+13,1,Experimental Values,1.5
+14,1,Experimental Values,1.5
+15,1,Experimental Values,1.5
+16,1,Experimental Values,1.5
+17,1,Experimental Values,1.5
+18,1,Experimental Values,1.5
+19,1,Experimental Values,1.5
+20,2,Experimental Values,1.5
+21,2,Experimental Values,1.5
+22,2,Experimental Values,1.5
+23,2,Experimental Values,1.5
+24,2,Experimental Values,1.5
+25,2,Experimental Values,1.5
+26,2,Experimental Values,1.5
+27,2,Experimental Values,1.5
+28,2,Experimental Values,1.5
+29,2,Experimental Values,1.5
+30,3,Experimental Values,1.0
+31,3,Experimental Values,1.0
+32,3,Experimental Values,1.0
+33,3,Experimental Values,1.0
+34,3,Experimental Values,1.0
+35,3,Experimental Values,1.0
+36,3,Experimental Values,1.0
+37,3,Experimental Values,1.0
+38,3,Experimental Values,1.0
+39,3,Experimental Values,1.0
+40,4,Experimental Values,0.5
+41,4,Experimental Values,0.5
+42,4,Experimental Values,0.5
+43,4,Experimental Values,0.5
+44,4,Experimental Values,0.5
+45,4,Experimental Values,0.5
+46,4,Experimental Values,0.5
+47,4,Experimental Values,0.5
+48,4,Experimental Values,0.5
+49,4,Experimental Values,0.5
+50,5,Experimental Values,1.0
+51,5,Experimental Values,1.0
+52,5,Experimental Values,1.0
+53,5,Experimental Values,1.0
+54,5,Experimental Values,1.0
+55,5,Experimental Values,1.0
+56,5,Experimental Values,1.0
+57,5,Experimental Values,1.0
+58,5,Experimental Values,1.0
+59,5,Experimental Values,1.0
+60,6,Experimental Values,0.5
+61,6,Experimental Values,0.5
+62,6,Experimental Values,0.5
+63,6,Experimental Values,0.5
+64,6,Experimental Values,0.5
+65,6,Experimental Values,0.5
+66,6,Experimental Values,0.5
+67,6,Experimental Values,0.5
+68,6,Experimental Values,0.5
+69,6,Experimental Values,0.5
+70,7,Experimental Values,1.0
+71,7,Experimental Values,1.0
+72,7,Experimental Values,1.0
+73,7,Experimental Values,1.0
+74,7,Experimental Values,1.0
+75,7,Experimental Values,1.0
+76,7,Experimental Values,1.0
+77,7,Experimental Values,1.0
+78,7,Experimental Values,1.0
+79,7,Experimental Values,1.0
+80,8,Experimental Values,1.0
+81,8,Experimental Values,1.0
+82,8,Experimental Values,1.0
+83,8,Experimental Values,1.0
+84,8,Experimental Values,1.0
+85,8,Experimental Values,1.0
+86,8,Experimental Values,1.0
+87,8,Experimental Values,1.0
+88,8,Experimental Values,1.0
+89,8,Experimental Values,1.0
+90,9,Experimental Values,1.5
+91,9,Experimental Values,1.5
+92,9,Experimental Values,1.5
+93,9,Experimental Values,1.5
+94,9,Experimental Values,1.5
+95,9,Experimental Values,1.5
+96,9,Experimental Values,1.5
+97,9,Experimental Values,1.5
+98,9,Experimental Values,1.5
+99,9,Experimental Values,1.5
+100,10,Experimental Values,1.5
+101,10,Experimental Values,1.5
+102,10,Experimental Values,1.5
+103,10,Experimental Values,1.5
+104,10,Experimental Values,1.5
+105,10,Experimental Values,1.5
+106,10,Experimental Values,1.5
+107,10,Experimental Values,1.5
+108,10,Experimental Values,1.5
+109,10,Experimental Values,1.5
+110,11,Experimental Values,1.5
+111,11,Experimental Values,1.5
+112,11,Experimental Values,1.5
+113,11,Experimental Values,1.5
+114,11,Experimental Values,1.5
+115,11,Experimental Values,1.5
+116,11,Experimental Values,1.5
+117,11,Experimental Values,1.5
+118,11,Experimental Values,1.5
+119,11,Experimental Values,1.5
+120,12,Experimental Values,1.0
+121,12,Experimental Values,1.0
+122,12,Experimental Values,1.0
+123,12,Experimental Values,1.0
+124,12,Experimental Values,1.0
+125,12,Experimental Values,1.0
+126,12,Experimental Values,1.0
+127,12,Experimental Values,1.0
+128,12,Experimental Values,1.0
+129,12,Experimental Values,1.0
+130,13,Experimental Values,1.0
+131,13,Experimental Values,1.0
+132,13,Experimental Values,1.0
+133,13,Experimental Values,1.0
+134,13,Experimental Values,1.0
+135,13,Experimental Values,1.0
+136,13,Experimental Values,1.0
+137,13,Experimental Values,1.0
+138,13,Experimental Values,1.0
+139,13,Experimental Values,1.0
+140,14,Experimental Values,0.0
+141,14,Experimental Values,0.0
+142,14,Experimental Values,0.0
+143,14,Experimental Values,0.0
+144,14,Experimental Values,0.0
+145,14,Experimental Values,0.0
+146,14,Experimental Values,0.0
+147,14,Experimental Values,0.0
+148,14,Experimental Values,0.0
+149,14,Experimental Values,0.0
+150,15,Experimental Values,0.0
+151,15,Experimental Values,0.0
+152,15,Experimental Values,0.0
+153,15,Experimental Values,0.0
+154,15,Experimental Values,0.0
+155,15,Experimental Values,0.0
+156,15,Experimental Values,0.0
+157,15,Experimental Values,0.0
+158,15,Experimental Values,0.0
+159,15,Experimental Values,0.0
+160,16,Experimental Values,0.0
+161,16,Experimental Values,0.0
+162,16,Experimental Values,0.0
+163,16,Experimental Values,0.0
+164,16,Experimental Values,0.0
+165,16,Experimental Values,0.0
+166,16,Experimental Values,0.0
+167,16,Experimental Values,0.0
+168,16,Experimental Values,0.0
+169,16,Experimental Values,0.0
+170,17,Experimental Values,0.0
+171,17,Experimental Values,0.0
+172,17,Experimental Values,0.0
+173,17,Experimental Values,0.0
+174,17,Experimental Values,0.0
+175,17,Experimental Values,0.0
+176,17,Experimental Values,0.0
+177,17,Experimental Values,0.0
+178,17,Experimental Values,0.0
+179,17,Experimental Values,0.0
+180,18,Experimental Values,0.0
+181,18,Experimental Values,0.0
+182,18,Experimental Values,0.0
+183,18,Experimental Values,0.0
+184,18,Experimental Values,0.0
+185,18,Experimental Values,0.0
+186,18,Experimental Values,0.0
+187,18,Experimental Values,0.0
+188,18,Experimental Values,0.0
+189,18,Experimental Values,0.0
+190,19,Experimental Values,0.0
+191,19,Experimental Values,0.0
+192,19,Experimental Values,0.0
+193,19,Experimental Values,0.0
+194,19,Experimental Values,0.0
+195,19,Experimental Values,0.0
+196,19,Experimental Values,0.0
+197,19,Experimental Values,0.0
+198,19,Experimental Values,0.0
+199,19,Experimental Values,0.0
+200,20,Experimental Values,0.0
+201,20,Experimental Values,0.0
+202,20,Experimental Values,0.0
+203,20,Experimental Values,0.0
+204,20,Experimental Values,0.0
+205,20,Experimental Values,0.0
+206,20,Experimental Values,0.0
+207,20,Experimental Values,0.0
+208,20,Experimental Values,0.0
+209,20,Experimental Values,0.0
+210,22,Experimental Values,0.0
+211,22,Experimental Values,0.0
+212,22,Experimental Values,0.0
+213,22,Experimental Values,0.0
+214,22,Experimental Values,0.0
+215,22,Experimental Values,0.0
+216,22,Experimental Values,0.0
+217,22,Experimental Values,0.0
+218,22,Experimental Values,0.0
+219,22,Experimental Values,0.0
+220,23,Experimental Values,0.0
+221,23,Experimental Values,0.0
+222,23,Experimental Values,0.0
+223,23,Experimental Values,0.0
+224,23,Experimental Values,0.0
+225,23,Experimental Values,0.0
+226,23,Experimental Values,0.0
+227,23,Experimental Values,0.0
+228,23,Experimental Values,0.0
+229,23,Experimental Values,0.0
+230,29,Experimental Values,1.0
+231,29,Experimental Values,1.0
+232,29,Experimental Values,1.0
+233,29,Experimental Values,1.0
+234,29,Experimental Values,1.0
+235,29,Experimental Values,1.0
+236,29,Experimental Values,1.0
+237,29,Experimental Values,1.0
+238,29,Experimental Values,1.0
+239,29,Experimental Values,1.0
+240,30,Experimental Values,1.0
+241,30,Experimental Values,1.0
+242,30,Experimental Values,1.0
+243,30,Experimental Values,1.0
+244,30,Experimental Values,1.0
+245,30,Experimental Values,1.0
+246,30,Experimental Values,1.0
+247,30,Experimental Values,1.0
+248,30,Experimental Values,1.0
+249,30,Experimental Values,1.0
+250,31,Experimental Values,1.0
+251,31,Experimental Values,1.0
+252,31,Experimental Values,1.0
+253,31,Experimental Values,1.0
+254,31,Experimental Values,1.0
+255,31,Experimental Values,1.0
+256,31,Experimental Values,1.0
+257,31,Experimental Values,1.0
+258,31,Experimental Values,1.0
+259,31,Experimental Values,1.0
+260,33,Experimental Values,1.0
+261,33,Experimental Values,1.0
+262,33,Experimental Values,1.0
+263,33,Experimental Values,1.0
+264,33,Experimental Values,1.0
+265,33,Experimental Values,1.0
+266,33,Experimental Values,1.0
+267,33,Experimental Values,1.0
+268,33,Experimental Values,1.0
+269,33,Experimental Values,1.0
+270,34,Experimental Values,1.0
+271,34,Experimental Values,1.0
+272,34,Experimental Values,1.0
+273,34,Experimental Values,1.0
+274,34,Experimental Values,1.0
+275,34,Experimental Values,1.0
+276,34,Experimental Values,1.0
+277,34,Experimental Values,1.0
+278,34,Experimental Values,1.0
+279,34,Experimental Values,1.0
+280,35,Experimental Values,0.0
+281,35,Experimental Values,0.0
+282,35,Experimental Values,0.0
+283,35,Experimental Values,0.0
+284,35,Experimental Values,0.0
+285,35,Experimental Values,0.0
+286,35,Experimental Values,0.0
+287,35,Experimental Values,0.0
+288,35,Experimental Values,0.0
+289,35,Experimental Values,0.0
+290,37,Experimental Values,0.0
+291,37,Experimental Values,0.0
+292,37,Experimental Values,0.0
+293,37,Experimental Values,0.0
+294,37,Experimental Values,0.0
+295,37,Experimental Values,0.0
+296,37,Experimental Values,0.0
+297,37,Experimental Values,0.0
+298,37,Experimental Values,0.0
+299,37,Experimental Values,0.0
+300,39,Experimental Values,1.0
+301,39,Experimental Values,1.0
+302,39,Experimental Values,1.0
+303,39,Experimental Values,1.0
+304,39,Experimental Values,1.0
+305,39,Experimental Values,1.0
+306,39,Experimental Values,1.0
+307,39,Experimental Values,1.0
+308,39,Experimental Values,1.0
+309,39,Experimental Values,1.0
+310,40,Experimental Values,1.0
+311,40,Experimental Values,1.0
+312,40,Experimental Values,1.0
+313,40,Experimental Values,1.0
+314,40,Experimental Values,1.0
+315,40,Experimental Values,1.0
+316,40,Experimental Values,1.0
+317,40,Experimental Values,1.0
+318,40,Experimental Values,1.0
+319,40,Experimental Values,1.0
+320,42,Experimental Values,1.0
+321,42,Experimental Values,1.0
+322,42,Experimental Values,1.0
+323,42,Experimental Values,1.0
+324,42,Experimental Values,1.0
+325,42,Experimental Values,1.0
+326,42,Experimental Values,1.0
+327,42,Experimental Values,1.0
+328,42,Experimental Values,1.0
+329,42,Experimental Values,1.0
+330,43,Experimental Values,1.0
+331,43,Experimental Values,1.0
+332,43,Experimental Values,1.0
+333,43,Experimental Values,1.0
+334,43,Experimental Values,1.0
+335,43,Experimental Values,1.0
+336,43,Experimental Values,1.0
+337,43,Experimental Values,1.0
+338,43,Experimental Values,1.0
+339,43,Experimental Values,1.0
+340,44,Experimental Values,1.0
+341,44,Experimental Values,1.0
+342,44,Experimental Values,1.0
+343,44,Experimental Values,1.0
+344,44,Experimental Values,1.0
+345,44,Experimental Values,1.0
+346,44,Experimental Values,1.0
+347,44,Experimental Values,1.0
+348,44,Experimental Values,1.0
+349,44,Experimental Values,1.0
+350,45,Experimental Values,1.0
+351,45,Experimental Values,1.0
+352,45,Experimental Values,1.0
+353,45,Experimental Values,1.0
+354,45,Experimental Values,1.0
+355,45,Experimental Values,1.0
+356,45,Experimental Values,1.0
+357,45,Experimental Values,1.0
+358,45,Experimental Values,1.0
+359,45,Experimental Values,1.0
+360,46,Experimental Values,0.0
+361,46,Experimental Values,0.0
+362,46,Experimental Values,0.0
+363,46,Experimental Values,0.0
+364,46,Experimental Values,0.0
+365,46,Experimental Values,0.0
+366,46,Experimental Values,0.0
+367,46,Experimental Values,0.0
+368,46,Experimental Values,0.0
+369,46,Experimental Values,0.0
+370,47,Experimental Values,1.0
+371,47,Experimental Values,1.0
+372,47,Experimental Values,1.0
+373,47,Experimental Values,1.0
+374,47,Experimental Values,1.0
+375,47,Experimental Values,1.0
+376,47,Experimental Values,1.0
+377,47,Experimental Values,1.0
+378,47,Experimental Values,1.0
+379,47,Experimental Values,1.0
+380,48,Experimental Values,1.0
+381,48,Experimental Values,1.0
+382,48,Experimental Values,1.0
+383,48,Experimental Values,1.0
+384,48,Experimental Values,1.0
+385,48,Experimental Values,1.0
+386,48,Experimental Values,1.0
+387,48,Experimental Values,1.0
+388,48,Experimental Values,1.0
+389,48,Experimental Values,1.0
+390,49,Experimental Values,1.0
+391,49,Experimental Values,1.0
+392,49,Experimental Values,1.0
+393,49,Experimental Values,1.0
+394,49,Experimental Values,1.0
+395,49,Experimental Values,1.0
+396,49,Experimental Values,1.0
+397,49,Experimental Values,1.0
+398,49,Experimental Values,1.0
+399,49,Experimental Values,1.0
+400,50,Experimental Values,1.0
+401,50,Experimental Values,1.0
+402,50,Experimental Values,1.0
+403,50,Experimental Values,1.0
+404,50,Experimental Values,1.0
+405,50,Experimental Values,1.0
+406,50,Experimental Values,1.0
+407,50,Experimental Values,1.0
+408,50,Experimental Values,1.0
+409,50,Experimental Values,1.0
+410,51,Experimental Values,0.0
+411,51,Experimental Values,0.0
+412,51,Experimental Values,0.0
+413,51,Experimental Values,0.0
+414,51,Experimental Values,0.0
+415,51,Experimental Values,0.0
+416,51,Experimental Values,0.0
+417,51,Experimental Values,0.0
+418,51,Experimental Values,0.0
+419,51,Experimental Values,0.0
+420,52,Experimental Values,0.0
+421,52,Experimental Values,0.0
+422,52,Experimental Values,0.0
+423,52,Experimental Values,0.0
+424,52,Experimental Values,0.0
+425,52,Experimental Values,0.0
+426,52,Experimental Values,0.0
+427,52,Experimental Values,0.0
+428,52,Experimental Values,0.0
+429,52,Experimental Values,0.0
+430,53,Experimental Values,1.0
+431,53,Experimental Values,1.0
+432,53,Experimental Values,1.0
+433,53,Experimental Values,1.0
+434,53,Experimental Values,1.0
+435,53,Experimental Values,1.0
+436,53,Experimental Values,1.0
+437,53,Experimental Values,1.0
+438,53,Experimental Values,1.0
+439,53,Experimental Values,1.0
+440,56,Experimental Values,1.0
+441,56,Experimental Values,1.0
+442,56,Experimental Values,1.0
+443,56,Experimental Values,1.0
+444,56,Experimental Values,1.0
+445,56,Experimental Values,1.0
+446,56,Experimental Values,1.0
+447,56,Experimental Values,1.0
+448,56,Experimental Values,1.0
+449,56,Experimental Values,1.0
+450,57,Experimental Values,1.0
+451,57,Experimental Values,1.0
+452,57,Experimental Values,1.0
+453,57,Experimental Values,1.0
+454,57,Experimental Values,1.0
+455,57,Experimental Values,1.0
+456,57,Experimental Values,1.0
+457,57,Experimental Values,1.0
+458,57,Experimental Values,1.0
+459,57,Experimental Values,1.0
+460,58,Experimental Values,1.0
+461,58,Experimental Values,1.0
+462,58,Experimental Values,1.0
+463,58,Experimental Values,1.0
+464,58,Experimental Values,1.0
+465,58,Experimental Values,1.0
+466,58,Experimental Values,1.0
+467,58,Experimental Values,1.0
+468,58,Experimental Values,1.0
+469,58,Experimental Values,1.0
+470,59,Experimental Values,1.0
+471,59,Experimental Values,1.0
+472,59,Experimental Values,1.0
+473,59,Experimental Values,1.0
+474,59,Experimental Values,1.0
+475,59,Experimental Values,1.0
+476,59,Experimental Values,1.0
+477,59,Experimental Values,1.0
+478,59,Experimental Values,1.0
+479,59,Experimental Values,1.0
+480,60,Experimental Values,1.0
+481,60,Experimental Values,1.0
+482,60,Experimental Values,1.0
+483,60,Experimental Values,1.0
+484,60,Experimental Values,1.0
+485,60,Experimental Values,1.0
+486,60,Experimental Values,1.0
+487,60,Experimental Values,1.0
+488,60,Experimental Values,1.0
+489,60,Experimental Values,1.0
+490,61,Experimental Values,1.0
+491,61,Experimental Values,1.0
+492,61,Experimental Values,1.0
+493,61,Experimental Values,1.0
+494,61,Experimental Values,1.0
+495,61,Experimental Values,1.0
+496,61,Experimental Values,1.0
+497,61,Experimental Values,1.0
+498,61,Experimental Values,1.0
+499,61,Experimental Values,1.0
+500,62,Experimental Values,1.0
+501,62,Experimental Values,1.0
+502,62,Experimental Values,1.0
+503,62,Experimental Values,1.0
+504,62,Experimental Values,1.0
+505,62,Experimental Values,1.0
+506,62,Experimental Values,1.0
+507,62,Experimental Values,1.0
+508,62,Experimental Values,1.0
+509,62,Experimental Values,1.0
+510,63,Experimental Values,1.0
+511,63,Experimental Values,1.0
+512,63,Experimental Values,1.0
+513,63,Experimental Values,1.0
+514,63,Experimental Values,1.0
+515,63,Experimental Values,1.0
+516,63,Experimental Values,1.0
+517,63,Experimental Values,1.0
+518,63,Experimental Values,1.0
+519,63,Experimental Values,1.0
+520,67,Experimental Values,1.0
+521,67,Experimental Values,1.0
+522,67,Experimental Values,1.0
+523,67,Experimental Values,1.0
+524,67,Experimental Values,1.0
+525,67,Experimental Values,1.0
+526,67,Experimental Values,1.0
+527,67,Experimental Values,1.0
+528,67,Experimental Values,1.0
+529,67,Experimental Values,1.0
+530,68,Experimental Values,0.0
+531,68,Experimental Values,0.0
+532,68,Experimental Values,0.0
+533,68,Experimental Values,0.0
+534,68,Experimental Values,0.0
+535,68,Experimental Values,0.0
+536,68,Experimental Values,0.0
+537,68,Experimental Values,0.0
+538,68,Experimental Values,0.0
+539,68,Experimental Values,0.0
+540,86,Litrature Indole (Benz) Values,1.0
+541,86,Litrature Indole (Benz) Values,1.0
+542,86,Litrature Indole (Benz) Values,1.0
+543,86,Litrature Indole (Benz) Values,1.0
+544,86,Litrature Indole (Benz) Values,1.0
+545,86,Litrature Indole (Benz) Values,1.0
+546,86,Litrature Indole (Benz) Values,1.0
+547,86,Litrature Indole (Benz) Values,1.0
+548,86,Litrature Indole (Benz) Values,1.0
+549,86,Litrature Indole (Benz) Values,1.0
+550,87,Litrature Indole (Benz) Values,1.5
+551,87,Litrature Indole (Benz) Values,1.5
+552,87,Litrature Indole (Benz) Values,1.5
+553,87,Litrature Indole (Benz) Values,1.5
+554,87,Litrature Indole (Benz) Values,1.5
+555,87,Litrature Indole (Benz) Values,1.5
+556,87,Litrature Indole (Benz) Values,1.5
+557,87,Litrature Indole (Benz) Values,1.5
+558,87,Litrature Indole (Benz) Values,1.5
+559,87,Litrature Indole (Benz) Values,1.5
+560,88,Litrature Indole (Benz) Values,1.5
+561,88,Litrature Indole (Benz) Values,1.5
+562,88,Litrature Indole (Benz) Values,1.5
+563,88,Litrature Indole (Benz) Values,1.5
+564,88,Litrature Indole (Benz) Values,1.5
+565,88,Litrature Indole (Benz) Values,1.5
+566,88,Litrature Indole (Benz) Values,1.5
+567,88,Litrature Indole (Benz) Values,1.5
+568,88,Litrature Indole (Benz) Values,1.5
+569,88,Litrature Indole (Benz) Values,1.5
+570,89,Litrature Indole (Benz) Values,1.5
+571,89,Litrature Indole (Benz) Values,1.5
+572,89,Litrature Indole (Benz) Values,1.5
+573,89,Litrature Indole (Benz) Values,1.5
+574,89,Litrature Indole (Benz) Values,1.5
+575,89,Litrature Indole (Benz) Values,1.5
+576,89,Litrature Indole (Benz) Values,1.5
+577,89,Litrature Indole (Benz) Values,1.5
+578,89,Litrature Indole (Benz) Values,1.5
+579,89,Litrature Indole (Benz) Values,1.5
+580,90,Litrature Indole (Benz) Values,1.5
+581,90,Litrature Indole (Benz) Values,1.5
+582,90,Litrature Indole (Benz) Values,1.5
+583,90,Litrature Indole (Benz) Values,1.5
+584,90,Litrature Indole (Benz) Values,1.5
+585,90,Litrature Indole (Benz) Values,1.5
+586,90,Litrature Indole (Benz) Values,1.5
+587,90,Litrature Indole (Benz) Values,1.5
+588,90,Litrature Indole (Benz) Values,1.5
+589,90,Litrature Indole (Benz) Values,1.5
+590,91,Litrature Indole (Benz) Values,0.0
+591,91,Litrature Indole (Benz) Values,0.0
+592,91,Litrature Indole (Benz) Values,0.0
+593,91,Litrature Indole (Benz) Values,0.0
+594,91,Litrature Indole (Benz) Values,0.0
+595,91,Litrature Indole (Benz) Values,0.0
+596,91,Litrature Indole (Benz) Values,0.0
+597,91,Litrature Indole (Benz) Values,0.0
+598,91,Litrature Indole (Benz) Values,0.0
+599,91,Litrature Indole (Benz) Values,0.0
+600,92,Litrature Indole (Benz) Values,1.5
+601,92,Litrature Indole (Benz) Values,1.5
+602,92,Litrature Indole (Benz) Values,1.5
+603,92,Litrature Indole (Benz) Values,1.5
+604,92,Litrature Indole (Benz) Values,1.5
+605,92,Litrature Indole (Benz) Values,1.5
+606,92,Litrature Indole (Benz) Values,1.5
+607,92,Litrature Indole (Benz) Values,1.5
+608,92,Litrature Indole (Benz) Values,1.5
+609,92,Litrature Indole (Benz) Values,1.5
+610,93,Litrature Indole (Benz) Values,1.5
+611,93,Litrature Indole (Benz) Values,1.5
+612,93,Litrature Indole (Benz) Values,1.5
+613,93,Litrature Indole (Benz) Values,1.5
+614,93,Litrature Indole (Benz) Values,1.5
+615,93,Litrature Indole (Benz) Values,1.5
+616,93,Litrature Indole (Benz) Values,1.5
+617,93,Litrature Indole (Benz) Values,1.5
+618,93,Litrature Indole (Benz) Values,1.5
+619,93,Litrature Indole (Benz) Values,1.5
+620,94,Litrature Indole (Benz) Values,0.0
+621,94,Litrature Indole (Benz) Values,0.0
+622,94,Litrature Indole (Benz) Values,0.0
+623,94,Litrature Indole (Benz) Values,0.0
+624,94,Litrature Indole (Benz) Values,0.0
+625,94,Litrature Indole (Benz) Values,0.0
+626,94,Litrature Indole (Benz) Values,0.0
+627,94,Litrature Indole (Benz) Values,0.0
+628,94,Litrature Indole (Benz) Values,0.0
+629,94,Litrature Indole (Benz) Values,0.0
+630,95,Litrature Indole (Benz) Values,1.5
+631,95,Litrature Indole (Benz) Values,1.5
+632,95,Litrature Indole (Benz) Values,1.5
+633,95,Litrature Indole (Benz) Values,1.5
+634,95,Litrature Indole (Benz) Values,1.5
+635,95,Litrature Indole (Benz) Values,1.5
+636,95,Litrature Indole (Benz) Values,1.5
+637,95,Litrature Indole (Benz) Values,1.5
+638,95,Litrature Indole (Benz) Values,1.5
+639,95,Litrature Indole (Benz) Values,1.5
+640,96,Litrature Indole (Benz) Values,1.0
+641,96,Litrature Indole (Benz) Values,1.0
+642,96,Litrature Indole (Benz) Values,1.0
+643,96,Litrature Indole (Benz) Values,1.0
+644,96,Litrature Indole (Benz) Values,1.0
+645,96,Litrature Indole (Benz) Values,1.0
+646,96,Litrature Indole (Benz) Values,1.0
+647,96,Litrature Indole (Benz) Values,1.0
+648,96,Litrature Indole (Benz) Values,1.0
+649,96,Litrature Indole (Benz) Values,1.0
+650,97,Litrature Indole (Benz) Values,1.0
+651,97,Litrature Indole (Benz) Values,1.0
+652,97,Litrature Indole (Benz) Values,1.0
+653,97,Litrature Indole (Benz) Values,1.0
+654,97,Litrature Indole (Benz) Values,1.0
+655,97,Litrature Indole (Benz) Values,1.0
+656,97,Litrature Indole (Benz) Values,1.0
+657,97,Litrature Indole (Benz) Values,1.0
+658,97,Litrature Indole (Benz) Values,1.0
+659,97,Litrature Indole (Benz) Values,1.0
+660,98,Litrature Indole (Benz) Values,1.0
+661,98,Litrature Indole (Benz) Values,1.0
+662,98,Litrature Indole (Benz) Values,1.0
+663,98,Litrature Indole (Benz) Values,1.0
+664,98,Litrature Indole (Benz) Values,1.0
+665,98,Litrature Indole (Benz) Values,1.0
+666,98,Litrature Indole (Benz) Values,1.0
+667,98,Litrature Indole (Benz) Values,1.0
+668,98,Litrature Indole (Benz) Values,1.0
+669,98,Litrature Indole (Benz) Values,1.0
+670,99,Litrature Indole (Benz) Values,0.0
+671,99,Litrature Indole (Benz) Values,0.0
+672,99,Litrature Indole (Benz) Values,0.0
+673,99,Litrature Indole (Benz) Values,0.0
+674,99,Litrature Indole (Benz) Values,0.0
+675,99,Litrature Indole (Benz) Values,0.0
+676,99,Litrature Indole (Benz) Values,0.0
+677,99,Litrature Indole (Benz) Values,0.0
+678,99,Litrature Indole (Benz) Values,0.0
+679,99,Litrature Indole (Benz) Values,0.0
+680,100,Litrature Indole (Benz) Values,0.0
+681,100,Litrature Indole (Benz) Values,0.0
+682,100,Litrature Indole (Benz) Values,0.0
+683,100,Litrature Indole (Benz) Values,0.0
+684,100,Litrature Indole (Benz) Values,0.0
+685,100,Litrature Indole (Benz) Values,0.0
+686,100,Litrature Indole (Benz) Values,0.0
+687,100,Litrature Indole (Benz) Values,0.0
+688,100,Litrature Indole (Benz) Values,0.0
+689,100,Litrature Indole (Benz) Values,0.0
+690,101,Litrature Indole (Benz) Values,0.0
+691,101,Litrature Indole (Benz) Values,0.0
+692,101,Litrature Indole (Benz) Values,0.0
+693,101,Litrature Indole (Benz) Values,0.0
+694,101,Litrature Indole (Benz) Values,0.0
+695,101,Litrature Indole (Benz) Values,0.0
+696,101,Litrature Indole (Benz) Values,0.0
+697,101,Litrature Indole (Benz) Values,0.0
+698,101,Litrature Indole (Benz) Values,0.0
+699,101,Litrature Indole (Benz) Values,0.0
+700,102,Litrature Indole (Benz) Values,1.5
+701,102,Litrature Indole (Benz) Values,1.5
+702,102,Litrature Indole (Benz) Values,1.5
+703,102,Litrature Indole (Benz) Values,1.5
+704,102,Litrature Indole (Benz) Values,1.5
+705,102,Litrature Indole (Benz) Values,1.5
+706,102,Litrature Indole (Benz) Values,1.5
+707,102,Litrature Indole (Benz) Values,1.5
+708,102,Litrature Indole (Benz) Values,1.5
+709,102,Litrature Indole (Benz) Values,1.5
+710,103,Litrature Indole (Benz) Values,1.5
+711,103,Litrature Indole (Benz) Values,1.5
+712,103,Litrature Indole (Benz) Values,1.5
+713,103,Litrature Indole (Benz) Values,1.5
+714,103,Litrature Indole (Benz) Values,1.5
+715,103,Litrature Indole (Benz) Values,1.5
+716,103,Litrature Indole (Benz) Values,1.5
+717,103,Litrature Indole (Benz) Values,1.5
+718,103,Litrature Indole (Benz) Values,1.5
+719,103,Litrature Indole (Benz) Values,1.5
+720,104,Litrature Indole (Benz) Values,1.5
+721,104,Litrature Indole (Benz) Values,1.5
+722,104,Litrature Indole (Benz) Values,1.5
+723,104,Litrature Indole (Benz) Values,1.5
+724,104,Litrature Indole (Benz) Values,1.5
+725,104,Litrature Indole (Benz) Values,1.5
+726,104,Litrature Indole (Benz) Values,1.5
+727,104,Litrature Indole (Benz) Values,1.5
+728,104,Litrature Indole (Benz) Values,1.5
+729,104,Litrature Indole (Benz) Values,1.5
+730,105,Litrature Indole (Benz) Values,1.5
+731,105,Litrature Indole (Benz) Values,1.5
+732,105,Litrature Indole (Benz) Values,1.5
+733,105,Litrature Indole (Benz) Values,1.5
+734,105,Litrature Indole (Benz) Values,1.5
+735,105,Litrature Indole (Benz) Values,1.5
+736,105,Litrature Indole (Benz) Values,1.5
+737,105,Litrature Indole (Benz) Values,1.5
+738,105,Litrature Indole (Benz) Values,1.5
+739,105,Litrature Indole (Benz) Values,1.5
+740,106,Litrature Indole (Benz) Values,1.5
+741,106,Litrature Indole (Benz) Values,1.5
+742,106,Litrature Indole (Benz) Values,1.5
+743,106,Litrature Indole (Benz) Values,1.5
+744,106,Litrature Indole (Benz) Values,1.5
+745,106,Litrature Indole (Benz) Values,1.5
+746,106,Litrature Indole (Benz) Values,1.5
+747,106,Litrature Indole (Benz) Values,1.5
+748,106,Litrature Indole (Benz) Values,1.5
+749,106,Litrature Indole (Benz) Values,1.5
+750,107,Litrature Indole (Benz) Values,1.5
+751,107,Litrature Indole (Benz) Values,1.5
+752,107,Litrature Indole (Benz) Values,1.5
+753,107,Litrature Indole (Benz) Values,1.5
+754,107,Litrature Indole (Benz) Values,1.5
+755,107,Litrature Indole (Benz) Values,1.5
+756,107,Litrature Indole (Benz) Values,1.5
+757,107,Litrature Indole (Benz) Values,1.5
+758,107,Litrature Indole (Benz) Values,1.5
+759,107,Litrature Indole (Benz) Values,1.5
+760,108,Litrature Indole (Benz) Values,1.5
+761,108,Litrature Indole (Benz) Values,1.5
+762,108,Litrature Indole (Benz) Values,1.5
+763,108,Litrature Indole (Benz) Values,1.5
+764,108,Litrature Indole (Benz) Values,1.5
+765,108,Litrature Indole (Benz) Values,1.5
+766,108,Litrature Indole (Benz) Values,1.5
+767,108,Litrature Indole (Benz) Values,1.5
+768,108,Litrature Indole (Benz) Values,1.5
+769,108,Litrature Indole (Benz) Values,1.5
+770,110,Litrature Indole (Benz) Values,1.5
+771,110,Litrature Indole (Benz) Values,1.5
+772,110,Litrature Indole (Benz) Values,1.5
+773,110,Litrature Indole (Benz) Values,1.5
+774,110,Litrature Indole (Benz) Values,1.5
+775,110,Litrature Indole (Benz) Values,1.5
+776,110,Litrature Indole (Benz) Values,1.5
+777,110,Litrature Indole (Benz) Values,1.5
+778,110,Litrature Indole (Benz) Values,1.5
+779,110,Litrature Indole (Benz) Values,1.5
+780,113,Litrature Indole (Benz) Values,1.5
+781,113,Litrature Indole (Benz) Values,1.5
+782,113,Litrature Indole (Benz) Values,1.5
+783,113,Litrature Indole (Benz) Values,1.5
+784,113,Litrature Indole (Benz) Values,1.5
+785,113,Litrature Indole (Benz) Values,1.5
+786,113,Litrature Indole (Benz) Values,1.5
+787,113,Litrature Indole (Benz) Values,1.5
+788,113,Litrature Indole (Benz) Values,1.5
+789,113,Litrature Indole (Benz) Values,1.5
+790,114,Litrature Indole (Benz) Values,1.5
+791,114,Litrature Indole (Benz) Values,1.5
+792,114,Litrature Indole (Benz) Values,1.5
+793,114,Litrature Indole (Benz) Values,1.5
+794,114,Litrature Indole (Benz) Values,1.5
+795,114,Litrature Indole (Benz) Values,1.5
+796,114,Litrature Indole (Benz) Values,1.5
+797,114,Litrature Indole (Benz) Values,1.5
+798,114,Litrature Indole (Benz) Values,1.5
+799,114,Litrature Indole (Benz) Values,1.5
+800,115,Litrature Indole (Benz) Values,1.5
+801,115,Litrature Indole (Benz) Values,1.5
+802,115,Litrature Indole (Benz) Values,1.5
+803,115,Litrature Indole (Benz) Values,1.5
+804,115,Litrature Indole (Benz) Values,1.5
+805,115,Litrature Indole (Benz) Values,1.5
+806,115,Litrature Indole (Benz) Values,1.5
+807,115,Litrature Indole (Benz) Values,1.5
+808,115,Litrature Indole (Benz) Values,1.5
+809,115,Litrature Indole (Benz) Values,1.5
+810,116,Litrature Indole (Benz) Values,1.5
+811,116,Litrature Indole (Benz) Values,1.5
+812,116,Litrature Indole (Benz) Values,1.5
+813,116,Litrature Indole (Benz) Values,1.5
+814,116,Litrature Indole (Benz) Values,1.5
+815,116,Litrature Indole (Benz) Values,1.5
+816,116,Litrature Indole (Benz) Values,1.5
+817,116,Litrature Indole (Benz) Values,1.5
+818,116,Litrature Indole (Benz) Values,1.5
+819,116,Litrature Indole (Benz) Values,1.5
+820,117,Litrature Indole (Benz) Values,1.5
+821,117,Litrature Indole (Benz) Values,1.5
+822,117,Litrature Indole (Benz) Values,1.5
+823,117,Litrature Indole (Benz) Values,1.5
+824,117,Litrature Indole (Benz) Values,1.5
+825,117,Litrature Indole (Benz) Values,1.5
+826,117,Litrature Indole (Benz) Values,1.5
+827,117,Litrature Indole (Benz) Values,1.5
+828,117,Litrature Indole (Benz) Values,1.5
+829,117,Litrature Indole (Benz) Values,1.5
+830,118,Litrature Indole (Benz) Values,1.5
+831,118,Litrature Indole (Benz) Values,1.5
+832,118,Litrature Indole (Benz) Values,1.5
+833,118,Litrature Indole (Benz) Values,1.5
+834,118,Litrature Indole (Benz) Values,1.5
+835,118,Litrature Indole (Benz) Values,1.5
+836,118,Litrature Indole (Benz) Values,1.5
+837,118,Litrature Indole (Benz) Values,1.5
+838,118,Litrature Indole (Benz) Values,1.5
+839,118,Litrature Indole (Benz) Values,1.5
+840,119,Litrature Indole (Benz) Values,1.5
+841,119,Litrature Indole (Benz) Values,1.5
+842,119,Litrature Indole (Benz) Values,1.5
+843,119,Litrature Indole (Benz) Values,1.5
+844,119,Litrature Indole (Benz) Values,1.5
+845,119,Litrature Indole (Benz) Values,1.5
+846,119,Litrature Indole (Benz) Values,1.5
+847,119,Litrature Indole (Benz) Values,1.5
+848,119,Litrature Indole (Benz) Values,1.5
+849,119,Litrature Indole (Benz) Values,1.5
+850,120,Litrature Indole (Benz) Values,1.5
+851,120,Litrature Indole (Benz) Values,1.5
+852,120,Litrature Indole (Benz) Values,1.5
+853,120,Litrature Indole (Benz) Values,1.5
+854,120,Litrature Indole (Benz) Values,1.5
+855,120,Litrature Indole (Benz) Values,1.5
+856,120,Litrature Indole (Benz) Values,1.5
+857,120,Litrature Indole (Benz) Values,1.5
+858,120,Litrature Indole (Benz) Values,1.5
+859,120,Litrature Indole (Benz) Values,1.5
+860,121,Litrature Indole (Benz) Values,1.5
+861,121,Litrature Indole (Benz) Values,1.5
+862,121,Litrature Indole (Benz) Values,1.5
+863,121,Litrature Indole (Benz) Values,1.5
+864,121,Litrature Indole (Benz) Values,1.5
+865,121,Litrature Indole (Benz) Values,1.5
+866,121,Litrature Indole (Benz) Values,1.5
+867,121,Litrature Indole (Benz) Values,1.5
+868,121,Litrature Indole (Benz) Values,1.5
+869,121,Litrature Indole (Benz) Values,1.5
+870,122,Litrature Indole (Benz) Values,1.5
+871,122,Litrature Indole (Benz) Values,1.5
+872,122,Litrature Indole (Benz) Values,1.5
+873,122,Litrature Indole (Benz) Values,1.5
+874,122,Litrature Indole (Benz) Values,1.5
+875,122,Litrature Indole (Benz) Values,1.5
+876,122,Litrature Indole (Benz) Values,1.5
+877,122,Litrature Indole (Benz) Values,1.5
+878,122,Litrature Indole (Benz) Values,1.5
+879,122,Litrature Indole (Benz) Values,1.5
+880,125,Litrature Indole (Benz) Values,1.0
+881,125,Litrature Indole (Benz) Values,1.0
+882,125,Litrature Indole (Benz) Values,1.0
+883,125,Litrature Indole (Benz) Values,1.0
+884,125,Litrature Indole (Benz) Values,1.0
+885,125,Litrature Indole (Benz) Values,1.0
+886,125,Litrature Indole (Benz) Values,1.0
+887,125,Litrature Indole (Benz) Values,1.0
+888,125,Litrature Indole (Benz) Values,1.0
+889,125,Litrature Indole (Benz) Values,1.0
+890,126,Litrature Indole (Benz) Values,1.5
+891,126,Litrature Indole (Benz) Values,1.5
+892,126,Litrature Indole (Benz) Values,1.5
+893,126,Litrature Indole (Benz) Values,1.5
+894,126,Litrature Indole (Benz) Values,1.5
+895,126,Litrature Indole (Benz) Values,1.5
+896,126,Litrature Indole (Benz) Values,1.5
+897,126,Litrature Indole (Benz) Values,1.5
+898,126,Litrature Indole (Benz) Values,1.5
+899,126,Litrature Indole (Benz) Values,1.5
+900,127,Litrature Indole (Benz) Values,1.5
+901,127,Litrature Indole (Benz) Values,1.5
+902,127,Litrature Indole (Benz) Values,1.5
+903,127,Litrature Indole (Benz) Values,1.5
+904,127,Litrature Indole (Benz) Values,1.5
+905,127,Litrature Indole (Benz) Values,1.5
+906,127,Litrature Indole (Benz) Values,1.5
+907,127,Litrature Indole (Benz) Values,1.5
+908,127,Litrature Indole (Benz) Values,1.5
+909,127,Litrature Indole (Benz) Values,1.5
+910,128,Litrature Indole (Benz) Values,1.0
+911,128,Litrature Indole (Benz) Values,1.0
+912,128,Litrature Indole (Benz) Values,1.0
+913,128,Litrature Indole (Benz) Values,1.0
+914,128,Litrature Indole (Benz) Values,1.0
+915,128,Litrature Indole (Benz) Values,1.0
+916,128,Litrature Indole (Benz) Values,1.0
+917,128,Litrature Indole (Benz) Values,1.0
+918,128,Litrature Indole (Benz) Values,1.0
+919,128,Litrature Indole (Benz) Values,1.0
+920,129,Litrature Indole (Benz) Values,1.5
+921,129,Litrature Indole (Benz) Values,1.5
+922,129,Litrature Indole (Benz) Values,1.5
+923,129,Litrature Indole (Benz) Values,1.5
+924,129,Litrature Indole (Benz) Values,1.5
+925,129,Litrature Indole (Benz) Values,1.5
+926,129,Litrature Indole (Benz) Values,1.5
+927,129,Litrature Indole (Benz) Values,1.5
+928,129,Litrature Indole (Benz) Values,1.5
+929,129,Litrature Indole (Benz) Values,1.5
+930,130,Litrature Indole (Benz) Values,0.0
+931,130,Litrature Indole (Benz) Values,0.0
+932,130,Litrature Indole (Benz) Values,0.0
+933,130,Litrature Indole (Benz) Values,0.0
+934,130,Litrature Indole (Benz) Values,0.0
+935,130,Litrature Indole (Benz) Values,0.0
+936,130,Litrature Indole (Benz) Values,0.0
+937,130,Litrature Indole (Benz) Values,0.0
+938,130,Litrature Indole (Benz) Values,0.0
+939,130,Litrature Indole (Benz) Values,0.0
+940,131,Litrature Indole (Benz) Values,1.0
+941,131,Litrature Indole (Benz) Values,1.0
+942,131,Litrature Indole (Benz) Values,1.0
+943,131,Litrature Indole (Benz) Values,1.0
+944,131,Litrature Indole (Benz) Values,1.0
+945,131,Litrature Indole (Benz) Values,1.0
+946,131,Litrature Indole (Benz) Values,1.0
+947,131,Litrature Indole (Benz) Values,1.0
+948,131,Litrature Indole (Benz) Values,1.0
+949,131,Litrature Indole (Benz) Values,1.0
+950,132,Litrature Indole (Benz) Values,1.5
+951,132,Litrature Indole (Benz) Values,1.5
+952,132,Litrature Indole (Benz) Values,1.5
+953,132,Litrature Indole (Benz) Values,1.5
+954,132,Litrature Indole (Benz) Values,1.5
+955,132,Litrature Indole (Benz) Values,1.5
+956,132,Litrature Indole (Benz) Values,1.5
+957,132,Litrature Indole (Benz) Values,1.5
+958,132,Litrature Indole (Benz) Values,1.5
+959,132,Litrature Indole (Benz) Values,1.5
+960,133,Litrature Indole (Benz) Values,1.0
+961,133,Litrature Indole (Benz) Values,1.0
+962,133,Litrature Indole (Benz) Values,1.0
+963,133,Litrature Indole (Benz) Values,1.0
+964,133,Litrature Indole (Benz) Values,1.0
+965,133,Litrature Indole (Benz) Values,1.0
+966,133,Litrature Indole (Benz) Values,1.0
+967,133,Litrature Indole (Benz) Values,1.0
+968,133,Litrature Indole (Benz) Values,1.0
+969,133,Litrature Indole (Benz) Values,1.0
+970,134,Litrature Indole (Benz) Values,1.0
+971,134,Litrature Indole (Benz) Values,1.0
+972,134,Litrature Indole (Benz) Values,1.0
+973,134,Litrature Indole (Benz) Values,1.0
+974,134,Litrature Indole (Benz) Values,1.0
+975,134,Litrature Indole (Benz) Values,1.0
+976,134,Litrature Indole (Benz) Values,1.0
+977,134,Litrature Indole (Benz) Values,1.0
+978,134,Litrature Indole (Benz) Values,1.0
+979,134,Litrature Indole (Benz) Values,1.0
+980,135,Litrature Indole (Benz) Values,1.0
+981,135,Litrature Indole (Benz) Values,1.0
+982,135,Litrature Indole (Benz) Values,1.0
+983,135,Litrature Indole (Benz) Values,1.0
+984,135,Litrature Indole (Benz) Values,1.0
+985,135,Litrature Indole (Benz) Values,1.0
+986,135,Litrature Indole (Benz) Values,1.0
+987,135,Litrature Indole (Benz) Values,1.0
+988,135,Litrature Indole (Benz) Values,1.0
+989,135,Litrature Indole (Benz) Values,1.0
+990,136,Litrature Indole (Benz) Values,1.0
+991,136,Litrature Indole (Benz) Values,1.0
+992,136,Litrature Indole (Benz) Values,1.0
+993,136,Litrature Indole (Benz) Values,1.0
+994,136,Litrature Indole (Benz) Values,1.0
+995,136,Litrature Indole (Benz) Values,1.0
+996,136,Litrature Indole (Benz) Values,1.0
+997,136,Litrature Indole (Benz) Values,1.0
+998,136,Litrature Indole (Benz) Values,1.0
+999,136,Litrature Indole (Benz) Values,1.0
+1000,137,Litrature Indole (Benz) Values,0.0
+1001,137,Litrature Indole (Benz) Values,0.0
+1002,137,Litrature Indole (Benz) Values,0.0
+1003,137,Litrature Indole (Benz) Values,0.0
+1004,137,Litrature Indole (Benz) Values,0.0
+1005,137,Litrature Indole (Benz) Values,0.0
+1006,137,Litrature Indole (Benz) Values,0.0
+1007,137,Litrature Indole (Benz) Values,0.0
+1008,137,Litrature Indole (Benz) Values,0.0
+1009,137,Litrature Indole (Benz) Values,0.0
+1010,138,Litrature Indole (Benz) Values,1.5
+1011,138,Litrature Indole (Benz) Values,1.5
+1012,138,Litrature Indole (Benz) Values,1.5
+1013,138,Litrature Indole (Benz) Values,1.5
+1014,138,Litrature Indole (Benz) Values,1.5
+1015,138,Litrature Indole (Benz) Values,1.5
+1016,138,Litrature Indole (Benz) Values,1.5
+1017,138,Litrature Indole (Benz) Values,1.5
+1018,138,Litrature Indole (Benz) Values,1.5
+1019,138,Litrature Indole (Benz) Values,1.5
+1020,139,Litrature Indole (Benz) Values,0.0
+1021,139,Litrature Indole (Benz) Values,0.0
+1022,139,Litrature Indole (Benz) Values,0.0
+1023,139,Litrature Indole (Benz) Values,0.0
+1024,139,Litrature Indole (Benz) Values,0.0
+1025,139,Litrature Indole (Benz) Values,0.0
+1026,139,Litrature Indole (Benz) Values,0.0
+1027,139,Litrature Indole (Benz) Values,0.0
+1028,139,Litrature Indole (Benz) Values,0.0
+1029,139,Litrature Indole (Benz) Values,0.0
+1030,140,Litrature Indole (Benz) Values,1.0
+1031,140,Litrature Indole (Benz) Values,1.0
+1032,140,Litrature Indole (Benz) Values,1.0
+1033,140,Litrature Indole (Benz) Values,1.0
+1034,140,Litrature Indole (Benz) Values,1.0
+1035,140,Litrature Indole (Benz) Values,1.0
+1036,140,Litrature Indole (Benz) Values,1.0
+1037,140,Litrature Indole (Benz) Values,1.0
+1038,140,Litrature Indole (Benz) Values,1.0
+1039,140,Litrature Indole (Benz) Values,1.0
+1040,141,Litrature Indole (Benz) Values,1.0
+1041,141,Litrature Indole (Benz) Values,1.0
+1042,141,Litrature Indole (Benz) Values,1.0
+1043,141,Litrature Indole (Benz) Values,1.0
+1044,141,Litrature Indole (Benz) Values,1.0
+1045,141,Litrature Indole (Benz) Values,1.0
+1046,141,Litrature Indole (Benz) Values,1.0
+1047,141,Litrature Indole (Benz) Values,1.0
+1048,141,Litrature Indole (Benz) Values,1.0
+1049,141,Litrature Indole (Benz) Values,1.0
+1050,142,Litrature Indole (Benz) Values,1.5
+1051,142,Litrature Indole (Benz) Values,1.5
+1052,142,Litrature Indole (Benz) Values,1.5
+1053,142,Litrature Indole (Benz) Values,1.5
+1054,142,Litrature Indole (Benz) Values,1.5
+1055,142,Litrature Indole (Benz) Values,1.5
+1056,142,Litrature Indole (Benz) Values,1.5
+1057,142,Litrature Indole (Benz) Values,1.5
+1058,142,Litrature Indole (Benz) Values,1.5
+1059,142,Litrature Indole (Benz) Values,1.5
+1060,143,Litrature Indole (Benz) Values,1.5
+1061,143,Litrature Indole (Benz) Values,1.5
+1062,143,Litrature Indole (Benz) Values,1.5
+1063,143,Litrature Indole (Benz) Values,1.5
+1064,143,Litrature Indole (Benz) Values,1.5
+1065,143,Litrature Indole (Benz) Values,1.5
+1066,143,Litrature Indole (Benz) Values,1.5
+1067,143,Litrature Indole (Benz) Values,1.5
+1068,143,Litrature Indole (Benz) Values,1.5
+1069,143,Litrature Indole (Benz) Values,1.5
+1070,144,Litrature Indole (Benz) Values,1.5
+1071,144,Litrature Indole (Benz) Values,1.5
+1072,144,Litrature Indole (Benz) Values,1.5
+1073,144,Litrature Indole (Benz) Values,1.5
+1074,144,Litrature Indole (Benz) Values,1.5
+1075,144,Litrature Indole (Benz) Values,1.5
+1076,144,Litrature Indole (Benz) Values,1.5
+1077,144,Litrature Indole (Benz) Values,1.5
+1078,144,Litrature Indole (Benz) Values,1.5
+1079,144,Litrature Indole (Benz) Values,1.5
+1080,145,Litrature Indole (Benz) Values,1.0
+1081,145,Litrature Indole (Benz) Values,1.0
+1082,145,Litrature Indole (Benz) Values,1.0
+1083,145,Litrature Indole (Benz) Values,1.0
+1084,145,Litrature Indole (Benz) Values,1.0
+1085,145,Litrature Indole (Benz) Values,1.0
+1086,145,Litrature Indole (Benz) Values,1.0
+1087,145,Litrature Indole (Benz) Values,1.0
+1088,145,Litrature Indole (Benz) Values,1.0
+1089,145,Litrature Indole (Benz) Values,1.0
+1090,146,Litrature Indole (Benz) Values,1.0
+1091,146,Litrature Indole (Benz) Values,1.0
+1092,146,Litrature Indole (Benz) Values,1.0
+1093,146,Litrature Indole (Benz) Values,1.0
+1094,146,Litrature Indole (Benz) Values,1.0
+1095,146,Litrature Indole (Benz) Values,1.0
+1096,146,Litrature Indole (Benz) Values,1.0
+1097,146,Litrature Indole (Benz) Values,1.0
+1098,146,Litrature Indole (Benz) Values,1.0
+1099,146,Litrature Indole (Benz) Values,1.0
+1100,147,Litrature Indole (Benz) Values,1.5
+1101,147,Litrature Indole (Benz) Values,1.5
+1102,147,Litrature Indole (Benz) Values,1.5
+1103,147,Litrature Indole (Benz) Values,1.5
+1104,147,Litrature Indole (Benz) Values,1.5
+1105,147,Litrature Indole (Benz) Values,1.5
+1106,147,Litrature Indole (Benz) Values,1.5
+1107,147,Litrature Indole (Benz) Values,1.5
+1108,147,Litrature Indole (Benz) Values,1.5
+1109,147,Litrature Indole (Benz) Values,1.5
+1110,148,Litrature Indole (Benz) Values,1.5
+1111,148,Litrature Indole (Benz) Values,1.5
+1112,148,Litrature Indole (Benz) Values,1.5
+1113,148,Litrature Indole (Benz) Values,1.5
+1114,148,Litrature Indole (Benz) Values,1.5
+1115,148,Litrature Indole (Benz) Values,1.5
+1116,148,Litrature Indole (Benz) Values,1.5
+1117,148,Litrature Indole (Benz) Values,1.5
+1118,148,Litrature Indole (Benz) Values,1.5
+1119,148,Litrature Indole (Benz) Values,1.5
+1120,149,Litrature Indole (Benz) Values,1.5
+1121,149,Litrature Indole (Benz) Values,1.5
+1122,149,Litrature Indole (Benz) Values,1.5
+1123,149,Litrature Indole (Benz) Values,1.5
+1124,149,Litrature Indole (Benz) Values,1.5
+1125,149,Litrature Indole (Benz) Values,1.5
+1126,149,Litrature Indole (Benz) Values,1.5
+1127,149,Litrature Indole (Benz) Values,1.5
+1128,149,Litrature Indole (Benz) Values,1.5
+1129,149,Litrature Indole (Benz) Values,1.5
+1130,150,Litrature Indole (Benz) Values,1.5
+1131,150,Litrature Indole (Benz) Values,1.5
+1132,150,Litrature Indole (Benz) Values,1.5
+1133,150,Litrature Indole (Benz) Values,1.5
+1134,150,Litrature Indole (Benz) Values,1.5
+1135,150,Litrature Indole (Benz) Values,1.5
+1136,150,Litrature Indole (Benz) Values,1.5
+1137,150,Litrature Indole (Benz) Values,1.5
+1138,150,Litrature Indole (Benz) Values,1.5
+1139,150,Litrature Indole (Benz) Values,1.5
+1140,151,Litrature Indole (Benz) Values,1.5
+1141,151,Litrature Indole (Benz) Values,1.5
+1142,151,Litrature Indole (Benz) Values,1.5
+1143,151,Litrature Indole (Benz) Values,1.5
+1144,151,Litrature Indole (Benz) Values,1.5
+1145,151,Litrature Indole (Benz) Values,1.5
+1146,151,Litrature Indole (Benz) Values,1.5
+1147,151,Litrature Indole (Benz) Values,1.5
+1148,151,Litrature Indole (Benz) Values,1.5
+1149,151,Litrature Indole (Benz) Values,1.5
+1150,152,Litrature Indole (Benz) Values,1.5
+1151,152,Litrature Indole (Benz) Values,1.5
+1152,152,Litrature Indole (Benz) Values,1.5
+1153,152,Litrature Indole (Benz) Values,1.5
+1154,152,Litrature Indole (Benz) Values,1.5
+1155,152,Litrature Indole (Benz) Values,1.5
+1156,152,Litrature Indole (Benz) Values,1.5
+1157,152,Litrature Indole (Benz) Values,1.5
+1158,152,Litrature Indole (Benz) Values,1.5
+1159,152,Litrature Indole (Benz) Values,1.5
+1160,153,Litrature Indole (Benz) Values,1.0
+1161,153,Litrature Indole (Benz) Values,1.0
+1162,153,Litrature Indole (Benz) Values,1.0
+1163,153,Litrature Indole (Benz) Values,1.0
+1164,153,Litrature Indole (Benz) Values,1.0
+1165,153,Litrature Indole (Benz) Values,1.0
+1166,153,Litrature Indole (Benz) Values,1.0
+1167,153,Litrature Indole (Benz) Values,1.0
+1168,153,Litrature Indole (Benz) Values,1.0
+1169,153,Litrature Indole (Benz) Values,1.0
+1170,154,Litrature Indole (Benz) Values,1.5
+1171,154,Litrature Indole (Benz) Values,1.5
+1172,154,Litrature Indole (Benz) Values,1.5
+1173,154,Litrature Indole (Benz) Values,1.5
+1174,154,Litrature Indole (Benz) Values,1.5
+1175,154,Litrature Indole (Benz) Values,1.5
+1176,154,Litrature Indole (Benz) Values,1.5
+1177,154,Litrature Indole (Benz) Values,1.5
+1178,154,Litrature Indole (Benz) Values,1.5
+1179,154,Litrature Indole (Benz) Values,1.5
+1180,155,Litrature Indole (Benz) Values,1.5
+1181,155,Litrature Indole (Benz) Values,1.5
+1182,155,Litrature Indole (Benz) Values,1.5
+1183,155,Litrature Indole (Benz) Values,1.5
+1184,155,Litrature Indole (Benz) Values,1.5
+1185,155,Litrature Indole (Benz) Values,1.5
+1186,155,Litrature Indole (Benz) Values,1.5
+1187,155,Litrature Indole (Benz) Values,1.5
+1188,155,Litrature Indole (Benz) Values,1.5
+1189,155,Litrature Indole (Benz) Values,1.5
+1190,156,Litrature Indole (Benz) Values,1.5
+1191,156,Litrature Indole (Benz) Values,1.5
+1192,156,Litrature Indole (Benz) Values,1.5
+1193,156,Litrature Indole (Benz) Values,1.5
+1194,156,Litrature Indole (Benz) Values,1.5
+1195,156,Litrature Indole (Benz) Values,1.5
+1196,156,Litrature Indole (Benz) Values,1.5
+1197,156,Litrature Indole (Benz) Values,1.5
+1198,156,Litrature Indole (Benz) Values,1.5
+1199,156,Litrature Indole (Benz) Values,1.5
+1200,157,Litrature Indole (Benz) Values,1.0
+1201,157,Litrature Indole (Benz) Values,1.0
+1202,157,Litrature Indole (Benz) Values,1.0
+1203,157,Litrature Indole (Benz) Values,1.0
+1204,157,Litrature Indole (Benz) Values,1.0
+1205,157,Litrature Indole (Benz) Values,1.0
+1206,157,Litrature Indole (Benz) Values,1.0
+1207,157,Litrature Indole (Benz) Values,1.0
+1208,157,Litrature Indole (Benz) Values,1.0
+1209,157,Litrature Indole (Benz) Values,1.0
+1210,158,Litrature Indole (Benz) Values,1.5
+1211,158,Litrature Indole (Benz) Values,1.5
+1212,158,Litrature Indole (Benz) Values,1.5
+1213,158,Litrature Indole (Benz) Values,1.5
+1214,158,Litrature Indole (Benz) Values,1.5
+1215,158,Litrature Indole (Benz) Values,1.5
+1216,158,Litrature Indole (Benz) Values,1.5
+1217,158,Litrature Indole (Benz) Values,1.5
+1218,158,Litrature Indole (Benz) Values,1.5
+1219,158,Litrature Indole (Benz) Values,1.5
+1220,159,Litrature Indole (Benz) Values,1.5
+1221,159,Litrature Indole (Benz) Values,1.5
+1222,159,Litrature Indole (Benz) Values,1.5
+1223,159,Litrature Indole (Benz) Values,1.5
+1224,159,Litrature Indole (Benz) Values,1.5
+1225,159,Litrature Indole (Benz) Values,1.5
+1226,159,Litrature Indole (Benz) Values,1.5
+1227,159,Litrature Indole (Benz) Values,1.5
+1228,159,Litrature Indole (Benz) Values,1.5
+1229,159,Litrature Indole (Benz) Values,1.5
+1230,160,Litrature Indole (Benz) Values,1.5
+1231,160,Litrature Indole (Benz) Values,1.5
+1232,160,Litrature Indole (Benz) Values,1.5
+1233,160,Litrature Indole (Benz) Values,1.5
+1234,160,Litrature Indole (Benz) Values,1.5
+1235,160,Litrature Indole (Benz) Values,1.5
+1236,160,Litrature Indole (Benz) Values,1.5
+1237,160,Litrature Indole (Benz) Values,1.5
+1238,160,Litrature Indole (Benz) Values,1.5
+1239,160,Litrature Indole (Benz) Values,1.5
+1240,161,Litrature Indole (Benz) Values,1.5
+1241,161,Litrature Indole (Benz) Values,1.5
+1242,161,Litrature Indole (Benz) Values,1.5
+1243,161,Litrature Indole (Benz) Values,1.5
+1244,161,Litrature Indole (Benz) Values,1.5
+1245,161,Litrature Indole (Benz) Values,1.5
+1246,161,Litrature Indole (Benz) Values,1.5
+1247,161,Litrature Indole (Benz) Values,1.5
+1248,161,Litrature Indole (Benz) Values,1.5
+1249,161,Litrature Indole (Benz) Values,1.5
+1250,162,Litrature Indole (Benz) Values,1.5
+1251,162,Litrature Indole (Benz) Values,1.5
+1252,162,Litrature Indole (Benz) Values,1.5
+1253,162,Litrature Indole (Benz) Values,1.5
+1254,162,Litrature Indole (Benz) Values,1.5
+1255,162,Litrature Indole (Benz) Values,1.5
+1256,162,Litrature Indole (Benz) Values,1.5
+1257,162,Litrature Indole (Benz) Values,1.5
+1258,162,Litrature Indole (Benz) Values,1.5
+1259,162,Litrature Indole (Benz) Values,1.5
+1260,163,Litrature Indole (Benz) Values,1.5
+1261,163,Litrature Indole (Benz) Values,1.5
+1262,163,Litrature Indole (Benz) Values,1.5
+1263,163,Litrature Indole (Benz) Values,1.5
+1264,163,Litrature Indole (Benz) Values,1.5
+1265,163,Litrature Indole (Benz) Values,1.5
+1266,163,Litrature Indole (Benz) Values,1.5
+1267,163,Litrature Indole (Benz) Values,1.5
+1268,163,Litrature Indole (Benz) Values,1.5
+1269,163,Litrature Indole (Benz) Values,1.5
+1270,164,Litrature Indole (Benz) Values,1.5
+1271,164,Litrature Indole (Benz) Values,1.5
+1272,164,Litrature Indole (Benz) Values,1.5
+1273,164,Litrature Indole (Benz) Values,1.5
+1274,164,Litrature Indole (Benz) Values,1.5
+1275,164,Litrature Indole (Benz) Values,1.5
+1276,164,Litrature Indole (Benz) Values,1.5
+1277,164,Litrature Indole (Benz) Values,1.5
+1278,164,Litrature Indole (Benz) Values,1.5
+1279,164,Litrature Indole (Benz) Values,1.5
+1280,165,Litrature Indole (Benz) Values,1.5
+1281,165,Litrature Indole (Benz) Values,1.5
+1282,165,Litrature Indole (Benz) Values,1.5
+1283,165,Litrature Indole (Benz) Values,1.5
+1284,165,Litrature Indole (Benz) Values,1.5
+1285,165,Litrature Indole (Benz) Values,1.5
+1286,165,Litrature Indole (Benz) Values,1.5
+1287,165,Litrature Indole (Benz) Values,1.5
+1288,165,Litrature Indole (Benz) Values,1.5
+1289,165,Litrature Indole (Benz) Values,1.5
+1290,166,Litrature Indole (Benz) Values,1.0
+1291,166,Litrature Indole (Benz) Values,1.0
+1292,166,Litrature Indole (Benz) Values,1.0
+1293,166,Litrature Indole (Benz) Values,1.0
+1294,166,Litrature Indole (Benz) Values,1.0
+1295,166,Litrature Indole (Benz) Values,1.0
+1296,166,Litrature Indole (Benz) Values,1.0
+1297,166,Litrature Indole (Benz) Values,1.0
+1298,166,Litrature Indole (Benz) Values,1.0
+1299,166,Litrature Indole (Benz) Values,1.0
+1300,167,Litrature Indole (Benz) Values,1.5
+1301,167,Litrature Indole (Benz) Values,1.5
+1302,167,Litrature Indole (Benz) Values,1.5
+1303,167,Litrature Indole (Benz) Values,1.5
+1304,167,Litrature Indole (Benz) Values,1.5
+1305,167,Litrature Indole (Benz) Values,1.5
+1306,167,Litrature Indole (Benz) Values,1.5
+1307,167,Litrature Indole (Benz) Values,1.5
+1308,167,Litrature Indole (Benz) Values,1.5
+1309,167,Litrature Indole (Benz) Values,1.5
+1310,168,Litrature Indole (Benz) Values,1.0
+1311,168,Litrature Indole (Benz) Values,1.0
+1312,168,Litrature Indole (Benz) Values,1.0
+1313,168,Litrature Indole (Benz) Values,1.0
+1314,168,Litrature Indole (Benz) Values,1.0
+1315,168,Litrature Indole (Benz) Values,1.0
+1316,168,Litrature Indole (Benz) Values,1.0
+1317,168,Litrature Indole (Benz) Values,1.0
+1318,168,Litrature Indole (Benz) Values,1.0
+1319,168,Litrature Indole (Benz) Values,1.0
+1320,169,Litrature Indole (Benz) Values,1.0
+1321,169,Litrature Indole (Benz) Values,1.0
+1322,169,Litrature Indole (Benz) Values,1.0
+1323,169,Litrature Indole (Benz) Values,1.0
+1324,169,Litrature Indole (Benz) Values,1.0
+1325,169,Litrature Indole (Benz) Values,1.0
+1326,169,Litrature Indole (Benz) Values,1.0
+1327,169,Litrature Indole (Benz) Values,1.0
+1328,169,Litrature Indole (Benz) Values,1.0
+1329,169,Litrature Indole (Benz) Values,1.0
+1330,170,Litrature Indole (Benz) Values,1.0
+1331,170,Litrature Indole (Benz) Values,1.0
+1332,170,Litrature Indole (Benz) Values,1.0
+1333,170,Litrature Indole (Benz) Values,1.0
+1334,170,Litrature Indole (Benz) Values,1.0
+1335,170,Litrature Indole (Benz) Values,1.0
+1336,170,Litrature Indole (Benz) Values,1.0
+1337,170,Litrature Indole (Benz) Values,1.0
+1338,170,Litrature Indole (Benz) Values,1.0
+1339,170,Litrature Indole (Benz) Values,1.0
+1340,171,Litrature Indole (Benz) Values,1.5
+1341,171,Litrature Indole (Benz) Values,1.5
+1342,171,Litrature Indole (Benz) Values,1.5
+1343,171,Litrature Indole (Benz) Values,1.5
+1344,171,Litrature Indole (Benz) Values,1.5
+1345,171,Litrature Indole (Benz) Values,1.5
+1346,171,Litrature Indole (Benz) Values,1.5
+1347,171,Litrature Indole (Benz) Values,1.5
+1348,171,Litrature Indole (Benz) Values,1.5
+1349,171,Litrature Indole (Benz) Values,1.5
+1350,172,Litrature Indole (Benz) Values,1.5
+1351,172,Litrature Indole (Benz) Values,1.5
+1352,172,Litrature Indole (Benz) Values,1.5
+1353,172,Litrature Indole (Benz) Values,1.5
+1354,172,Litrature Indole (Benz) Values,1.5
+1355,172,Litrature Indole (Benz) Values,1.5
+1356,172,Litrature Indole (Benz) Values,1.5
+1357,172,Litrature Indole (Benz) Values,1.5
+1358,172,Litrature Indole (Benz) Values,1.5
+1359,172,Litrature Indole (Benz) Values,1.5
+1360,173,Litrature Indole (Benz) Values,1.5
+1361,173,Litrature Indole (Benz) Values,1.5
+1362,173,Litrature Indole (Benz) Values,1.5
+1363,173,Litrature Indole (Benz) Values,1.5
+1364,173,Litrature Indole (Benz) Values,1.5
+1365,173,Litrature Indole (Benz) Values,1.5
+1366,173,Litrature Indole (Benz) Values,1.5
+1367,173,Litrature Indole (Benz) Values,1.5
+1368,173,Litrature Indole (Benz) Values,1.5
+1369,173,Litrature Indole (Benz) Values,1.5
+1370,174,Litrature Indole (Benz) Values,1.5
+1371,174,Litrature Indole (Benz) Values,1.5
+1372,174,Litrature Indole (Benz) Values,1.5
+1373,174,Litrature Indole (Benz) Values,1.5
+1374,174,Litrature Indole (Benz) Values,1.5
+1375,174,Litrature Indole (Benz) Values,1.5
+1376,174,Litrature Indole (Benz) Values,1.5
+1377,174,Litrature Indole (Benz) Values,1.5
+1378,174,Litrature Indole (Benz) Values,1.5
+1379,174,Litrature Indole (Benz) Values,1.5
+1380,175,Litrature Indole (Benz) Values,1.5
+1381,175,Litrature Indole (Benz) Values,1.5
+1382,175,Litrature Indole (Benz) Values,1.5
+1383,175,Litrature Indole (Benz) Values,1.5
+1384,175,Litrature Indole (Benz) Values,1.5
+1385,175,Litrature Indole (Benz) Values,1.5
+1386,175,Litrature Indole (Benz) Values,1.5
+1387,175,Litrature Indole (Benz) Values,1.5
+1388,175,Litrature Indole (Benz) Values,1.5
+1389,175,Litrature Indole (Benz) Values,1.5
+1390,176,Litrature Indole (Benz) Values,1.5
+1391,176,Litrature Indole (Benz) Values,1.5
+1392,176,Litrature Indole (Benz) Values,1.5
+1393,176,Litrature Indole (Benz) Values,1.5
+1394,176,Litrature Indole (Benz) Values,1.5
+1395,176,Litrature Indole (Benz) Values,1.5
+1396,176,Litrature Indole (Benz) Values,1.5
+1397,176,Litrature Indole (Benz) Values,1.5
+1398,176,Litrature Indole (Benz) Values,1.5
+1399,176,Litrature Indole (Benz) Values,1.5
+1400,177,Litrature Indole (Benz) Values,1.5
+1401,177,Litrature Indole (Benz) Values,1.5
+1402,177,Litrature Indole (Benz) Values,1.5
+1403,177,Litrature Indole (Benz) Values,1.5
+1404,177,Litrature Indole (Benz) Values,1.5
+1405,177,Litrature Indole (Benz) Values,1.5
+1406,177,Litrature Indole (Benz) Values,1.5
+1407,177,Litrature Indole (Benz) Values,1.5
+1408,177,Litrature Indole (Benz) Values,1.5
+1409,177,Litrature Indole (Benz) Values,1.5
+1410,178,Litrature Indole (Benz) Values,1.5
+1411,178,Litrature Indole (Benz) Values,1.5
+1412,178,Litrature Indole (Benz) Values,1.5
+1413,178,Litrature Indole (Benz) Values,1.5
+1414,178,Litrature Indole (Benz) Values,1.5
+1415,178,Litrature Indole (Benz) Values,1.5
+1416,178,Litrature Indole (Benz) Values,1.5
+1417,178,Litrature Indole (Benz) Values,1.5
+1418,178,Litrature Indole (Benz) Values,1.5
+1419,178,Litrature Indole (Benz) Values,1.5
+1420,179,Litrature Indole (Benz) Values,1.5
+1421,179,Litrature Indole (Benz) Values,1.5
+1422,179,Litrature Indole (Benz) Values,1.5
+1423,179,Litrature Indole (Benz) Values,1.5
+1424,179,Litrature Indole (Benz) Values,1.5
+1425,179,Litrature Indole (Benz) Values,1.5
+1426,179,Litrature Indole (Benz) Values,1.5
+1427,179,Litrature Indole (Benz) Values,1.5
+1428,179,Litrature Indole (Benz) Values,1.5
+1429,179,Litrature Indole (Benz) Values,1.5
+1430,180,Litrature Indole (Benz) Values,1.5
+1431,180,Litrature Indole (Benz) Values,1.5
+1432,180,Litrature Indole (Benz) Values,1.5
+1433,180,Litrature Indole (Benz) Values,1.5
+1434,180,Litrature Indole (Benz) Values,1.5
+1435,180,Litrature Indole (Benz) Values,1.5
+1436,180,Litrature Indole (Benz) Values,1.5
+1437,180,Litrature Indole (Benz) Values,1.5
+1438,180,Litrature Indole (Benz) Values,1.5
+1439,180,Litrature Indole (Benz) Values,1.5
+1440,181,Litrature Indole (Benz) Values,1.5
+1441,181,Litrature Indole (Benz) Values,1.5
+1442,181,Litrature Indole (Benz) Values,1.5
+1443,181,Litrature Indole (Benz) Values,1.5
+1444,181,Litrature Indole (Benz) Values,1.5
+1445,181,Litrature Indole (Benz) Values,1.5
+1446,181,Litrature Indole (Benz) Values,1.5
+1447,181,Litrature Indole (Benz) Values,1.5
+1448,181,Litrature Indole (Benz) Values,1.5
+1449,181,Litrature Indole (Benz) Values,1.5
+1450,182,Litrature Indole (Benz) Values,1.5
+1451,182,Litrature Indole (Benz) Values,1.5
+1452,182,Litrature Indole (Benz) Values,1.5
+1453,182,Litrature Indole (Benz) Values,1.5
+1454,182,Litrature Indole (Benz) Values,1.5
+1455,182,Litrature Indole (Benz) Values,1.5
+1456,182,Litrature Indole (Benz) Values,1.5
+1457,182,Litrature Indole (Benz) Values,1.5
+1458,182,Litrature Indole (Benz) Values,1.5
+1459,182,Litrature Indole (Benz) Values,1.5
+1460,183,Litrature Indole (Benz) Values,1.5
+1461,183,Litrature Indole (Benz) Values,1.5
+1462,183,Litrature Indole (Benz) Values,1.5
+1463,183,Litrature Indole (Benz) Values,1.5
+1464,183,Litrature Indole (Benz) Values,1.5
+1465,183,Litrature Indole (Benz) Values,1.5
+1466,183,Litrature Indole (Benz) Values,1.5
+1467,183,Litrature Indole (Benz) Values,1.5
+1468,183,Litrature Indole (Benz) Values,1.5
+1469,183,Litrature Indole (Benz) Values,1.5
+1470,184,Litrature Indole (Benz) Values,1.5
+1471,184,Litrature Indole (Benz) Values,1.5
+1472,184,Litrature Indole (Benz) Values,1.5
+1473,184,Litrature Indole (Benz) Values,1.5
+1474,184,Litrature Indole (Benz) Values,1.5
+1475,184,Litrature Indole (Benz) Values,1.5
+1476,184,Litrature Indole (Benz) Values,1.5
+1477,184,Litrature Indole (Benz) Values,1.5
+1478,184,Litrature Indole (Benz) Values,1.5
+1479,184,Litrature Indole (Benz) Values,1.5
+1480,185,Litrature Indole (Benz) Values,1.5
+1481,185,Litrature Indole (Benz) Values,1.5
+1482,185,Litrature Indole (Benz) Values,1.5
+1483,185,Litrature Indole (Benz) Values,1.5
+1484,185,Litrature Indole (Benz) Values,1.5
+1485,185,Litrature Indole (Benz) Values,1.5
+1486,185,Litrature Indole (Benz) Values,1.5
+1487,185,Litrature Indole (Benz) Values,1.5
+1488,185,Litrature Indole (Benz) Values,1.5
+1489,185,Litrature Indole (Benz) Values,1.5
+1490,186,Litrature Indole (Benz) Values,1.5
+1491,186,Litrature Indole (Benz) Values,1.5
+1492,186,Litrature Indole (Benz) Values,1.5
+1493,186,Litrature Indole (Benz) Values,1.5
+1494,186,Litrature Indole (Benz) Values,1.5
+1495,186,Litrature Indole (Benz) Values,1.5
+1496,186,Litrature Indole (Benz) Values,1.5
+1497,186,Litrature Indole (Benz) Values,1.5
+1498,186,Litrature Indole (Benz) Values,1.5
+1499,186,Litrature Indole (Benz) Values,1.5
+1500,187,Litrature Indole (Benz) Values,1.5
+1501,187,Litrature Indole (Benz) Values,1.5
+1502,187,Litrature Indole (Benz) Values,1.5
+1503,187,Litrature Indole (Benz) Values,1.5
+1504,187,Litrature Indole (Benz) Values,1.5
+1505,187,Litrature Indole (Benz) Values,1.5
+1506,187,Litrature Indole (Benz) Values,1.5
+1507,187,Litrature Indole (Benz) Values,1.5
+1508,187,Litrature Indole (Benz) Values,1.5
+1509,187,Litrature Indole (Benz) Values,1.5
+1510,188,Litrature Indole (Benz) Values,1.5
+1511,188,Litrature Indole (Benz) Values,1.5
+1512,188,Litrature Indole (Benz) Values,1.5
+1513,188,Litrature Indole (Benz) Values,1.5
+1514,188,Litrature Indole (Benz) Values,1.5
+1515,188,Litrature Indole (Benz) Values,1.5
+1516,188,Litrature Indole (Benz) Values,1.5
+1517,188,Litrature Indole (Benz) Values,1.5
+1518,188,Litrature Indole (Benz) Values,1.5
+1519,188,Litrature Indole (Benz) Values,1.5
+1520,189,Litrature Indole (Benz) Values,1.5
+1521,189,Litrature Indole (Benz) Values,1.5
+1522,189,Litrature Indole (Benz) Values,1.5
+1523,189,Litrature Indole (Benz) Values,1.5
+1524,189,Litrature Indole (Benz) Values,1.5
+1525,189,Litrature Indole (Benz) Values,1.5
+1526,189,Litrature Indole (Benz) Values,1.5
+1527,189,Litrature Indole (Benz) Values,1.5
+1528,189,Litrature Indole (Benz) Values,1.5
+1529,189,Litrature Indole (Benz) Values,1.5
+1530,190,Litrature Indole (Benz) Values,1.0
+1531,190,Litrature Indole (Benz) Values,1.0
+1532,190,Litrature Indole (Benz) Values,1.0
+1533,190,Litrature Indole (Benz) Values,1.0
+1534,190,Litrature Indole (Benz) Values,1.0
+1535,190,Litrature Indole (Benz) Values,1.0
+1536,190,Litrature Indole (Benz) Values,1.0
+1537,190,Litrature Indole (Benz) Values,1.0
+1538,190,Litrature Indole (Benz) Values,1.0
+1539,190,Litrature Indole (Benz) Values,1.0
+1540,191,Litrature Indole (Benz) Values,1.5
+1541,191,Litrature Indole (Benz) Values,1.5
+1542,191,Litrature Indole (Benz) Values,1.5
+1543,191,Litrature Indole (Benz) Values,1.5
+1544,191,Litrature Indole (Benz) Values,1.5
+1545,191,Litrature Indole (Benz) Values,1.5
+1546,191,Litrature Indole (Benz) Values,1.5
+1547,191,Litrature Indole (Benz) Values,1.5
+1548,191,Litrature Indole (Benz) Values,1.5
+1549,191,Litrature Indole (Benz) Values,1.5
+1550,192,Litrature Indole (Benz) Values,1.5
+1551,192,Litrature Indole (Benz) Values,1.5
+1552,192,Litrature Indole (Benz) Values,1.5
+1553,192,Litrature Indole (Benz) Values,1.5
+1554,192,Litrature Indole (Benz) Values,1.5
+1555,192,Litrature Indole (Benz) Values,1.5
+1556,192,Litrature Indole (Benz) Values,1.5
+1557,192,Litrature Indole (Benz) Values,1.5
+1558,192,Litrature Indole (Benz) Values,1.5
+1559,192,Litrature Indole (Benz) Values,1.5
+1560,193,Litrature Indole (Benz) Values,1.5
+1561,193,Litrature Indole (Benz) Values,1.5
+1562,193,Litrature Indole (Benz) Values,1.5
+1563,193,Litrature Indole (Benz) Values,1.5
+1564,193,Litrature Indole (Benz) Values,1.5
+1565,193,Litrature Indole (Benz) Values,1.5
+1566,193,Litrature Indole (Benz) Values,1.5
+1567,193,Litrature Indole (Benz) Values,1.5
+1568,193,Litrature Indole (Benz) Values,1.5
+1569,193,Litrature Indole (Benz) Values,1.5
+1570,194,Litrature Indole (Benz) Values,1.5
+1571,194,Litrature Indole (Benz) Values,1.5
+1572,194,Litrature Indole (Benz) Values,1.5
+1573,194,Litrature Indole (Benz) Values,1.5
+1574,194,Litrature Indole (Benz) Values,1.5
+1575,194,Litrature Indole (Benz) Values,1.5
+1576,194,Litrature Indole (Benz) Values,1.5
+1577,194,Litrature Indole (Benz) Values,1.5
+1578,194,Litrature Indole (Benz) Values,1.5
+1579,194,Litrature Indole (Benz) Values,1.5
+1580,195,Litrature Indole (Benz) Values,1.5
+1581,195,Litrature Indole (Benz) Values,1.5
+1582,195,Litrature Indole (Benz) Values,1.5
+1583,195,Litrature Indole (Benz) Values,1.5
+1584,195,Litrature Indole (Benz) Values,1.5
+1585,195,Litrature Indole (Benz) Values,1.5
+1586,195,Litrature Indole (Benz) Values,1.5
+1587,195,Litrature Indole (Benz) Values,1.5
+1588,195,Litrature Indole (Benz) Values,1.5
+1589,195,Litrature Indole (Benz) Values,1.5
+1590,196,Litrature Indole (Benz) Values,1.5
+1591,196,Litrature Indole (Benz) Values,1.5
+1592,196,Litrature Indole (Benz) Values,1.5
+1593,196,Litrature Indole (Benz) Values,1.5
+1594,196,Litrature Indole (Benz) Values,1.5
+1595,196,Litrature Indole (Benz) Values,1.5
+1596,196,Litrature Indole (Benz) Values,1.5
+1597,196,Litrature Indole (Benz) Values,1.5
+1598,196,Litrature Indole (Benz) Values,1.5
+1599,196,Litrature Indole (Benz) Values,1.5
+1600,197,Litrature Indole (Benz) Values,1.5
+1601,197,Litrature Indole (Benz) Values,1.5
+1602,197,Litrature Indole (Benz) Values,1.5
+1603,197,Litrature Indole (Benz) Values,1.5
+1604,197,Litrature Indole (Benz) Values,1.5
+1605,197,Litrature Indole (Benz) Values,1.5
+1606,197,Litrature Indole (Benz) Values,1.5
+1607,197,Litrature Indole (Benz) Values,1.5
+1608,197,Litrature Indole (Benz) Values,1.5
+1609,197,Litrature Indole (Benz) Values,1.5
+1610,198,Litrature Indole (Benz) Values,1.5
+1611,198,Litrature Indole (Benz) Values,1.5
+1612,198,Litrature Indole (Benz) Values,1.5
+1613,198,Litrature Indole (Benz) Values,1.5
+1614,198,Litrature Indole (Benz) Values,1.5
+1615,198,Litrature Indole (Benz) Values,1.5
+1616,198,Litrature Indole (Benz) Values,1.5
+1617,198,Litrature Indole (Benz) Values,1.5
+1618,198,Litrature Indole (Benz) Values,1.5
+1619,198,Litrature Indole (Benz) Values,1.5
+1620,199,Litrature Indole (Benz) Values,1.5
+1621,199,Litrature Indole (Benz) Values,1.5
+1622,199,Litrature Indole (Benz) Values,1.5
+1623,199,Litrature Indole (Benz) Values,1.5
+1624,199,Litrature Indole (Benz) Values,1.5
+1625,199,Litrature Indole (Benz) Values,1.5
+1626,199,Litrature Indole (Benz) Values,1.5
+1627,199,Litrature Indole (Benz) Values,1.5
+1628,199,Litrature Indole (Benz) Values,1.5
+1629,199,Litrature Indole (Benz) Values,1.5
+1630,200,Litrature Indole (Benz) Values,1.5
+1631,200,Litrature Indole (Benz) Values,1.5
+1632,200,Litrature Indole (Benz) Values,1.5
+1633,200,Litrature Indole (Benz) Values,1.5
+1634,200,Litrature Indole (Benz) Values,1.5
+1635,200,Litrature Indole (Benz) Values,1.5
+1636,200,Litrature Indole (Benz) Values,1.5
+1637,200,Litrature Indole (Benz) Values,1.5
+1638,200,Litrature Indole (Benz) Values,1.5
+1639,200,Litrature Indole (Benz) Values,1.5
+1640,201,Litrature Indole (Benz) Values,1.5
+1641,201,Litrature Indole (Benz) Values,1.5
+1642,201,Litrature Indole (Benz) Values,1.5
+1643,201,Litrature Indole (Benz) Values,1.5
+1644,201,Litrature Indole (Benz) Values,1.5
+1645,201,Litrature Indole (Benz) Values,1.5
+1646,201,Litrature Indole (Benz) Values,1.5
+1647,201,Litrature Indole (Benz) Values,1.5
+1648,201,Litrature Indole (Benz) Values,1.5
+1649,201,Litrature Indole (Benz) Values,1.5
+1650,202,Litrature Indole (Benz) Values,1.5
+1651,202,Litrature Indole (Benz) Values,1.5
+1652,202,Litrature Indole (Benz) Values,1.5
+1653,202,Litrature Indole (Benz) Values,1.5
+1654,202,Litrature Indole (Benz) Values,1.5
+1655,202,Litrature Indole (Benz) Values,1.5
+1656,202,Litrature Indole (Benz) Values,1.5
+1657,202,Litrature Indole (Benz) Values,1.5
+1658,202,Litrature Indole (Benz) Values,1.5
+1659,202,Litrature Indole (Benz) Values,1.5
+1660,203,Litrature Indole (Benz) Values,1.5
+1661,203,Litrature Indole (Benz) Values,1.5
+1662,203,Litrature Indole (Benz) Values,1.5
+1663,203,Litrature Indole (Benz) Values,1.5
+1664,203,Litrature Indole (Benz) Values,1.5
+1665,203,Litrature Indole (Benz) Values,1.5
+1666,203,Litrature Indole (Benz) Values,1.5
+1667,203,Litrature Indole (Benz) Values,1.5
+1668,203,Litrature Indole (Benz) Values,1.5
+1669,203,Litrature Indole (Benz) Values,1.5
+1670,204,Litrature Indole (Benz) Values,1.5
+1671,204,Litrature Indole (Benz) Values,1.5
+1672,204,Litrature Indole (Benz) Values,1.5
+1673,204,Litrature Indole (Benz) Values,1.5
+1674,204,Litrature Indole (Benz) Values,1.5
+1675,204,Litrature Indole (Benz) Values,1.5
+1676,204,Litrature Indole (Benz) Values,1.5
+1677,204,Litrature Indole (Benz) Values,1.5
+1678,204,Litrature Indole (Benz) Values,1.5
+1679,204,Litrature Indole (Benz) Values,1.5
+1680,205,Litrature Indole (Benz) Values,1.5
+1681,205,Litrature Indole (Benz) Values,1.5
+1682,205,Litrature Indole (Benz) Values,1.5
+1683,205,Litrature Indole (Benz) Values,1.5
+1684,205,Litrature Indole (Benz) Values,1.5
+1685,205,Litrature Indole (Benz) Values,1.5
+1686,205,Litrature Indole (Benz) Values,1.5
+1687,205,Litrature Indole (Benz) Values,1.5
+1688,205,Litrature Indole (Benz) Values,1.5
+1689,205,Litrature Indole (Benz) Values,1.5
+1690,206,Litrature Indole (Benz) Values,1.5
+1691,206,Litrature Indole (Benz) Values,1.5
+1692,206,Litrature Indole (Benz) Values,1.5
+1693,206,Litrature Indole (Benz) Values,1.5
+1694,206,Litrature Indole (Benz) Values,1.5
+1695,206,Litrature Indole (Benz) Values,1.5
+1696,206,Litrature Indole (Benz) Values,1.5
+1697,206,Litrature Indole (Benz) Values,1.5
+1698,206,Litrature Indole (Benz) Values,1.5
+1699,206,Litrature Indole (Benz) Values,1.5
+1700,207,Litrature Indole (Benz) Values,1.0
+1701,207,Litrature Indole (Benz) Values,1.0
+1702,207,Litrature Indole (Benz) Values,1.0
+1703,207,Litrature Indole (Benz) Values,1.0
+1704,207,Litrature Indole (Benz) Values,1.0
+1705,207,Litrature Indole (Benz) Values,1.0
+1706,207,Litrature Indole (Benz) Values,1.0
+1707,207,Litrature Indole (Benz) Values,1.0
+1708,207,Litrature Indole (Benz) Values,1.0
+1709,207,Litrature Indole (Benz) Values,1.0
+1710,208,Litrature Indole (Benz) Values,0.0
+1711,208,Litrature Indole (Benz) Values,0.0
+1712,208,Litrature Indole (Benz) Values,0.0
+1713,208,Litrature Indole (Benz) Values,0.0
+1714,208,Litrature Indole (Benz) Values,0.0
+1715,208,Litrature Indole (Benz) Values,0.0
+1716,208,Litrature Indole (Benz) Values,0.0
+1717,208,Litrature Indole (Benz) Values,0.0
+1718,208,Litrature Indole (Benz) Values,0.0
+1719,208,Litrature Indole (Benz) Values,0.0
+1720,209,Litrature Indole (Benz) Values,1.0
+1721,209,Litrature Indole (Benz) Values,1.0
+1722,209,Litrature Indole (Benz) Values,1.0
+1723,209,Litrature Indole (Benz) Values,1.0
+1724,209,Litrature Indole (Benz) Values,1.0
+1725,209,Litrature Indole (Benz) Values,1.0
+1726,209,Litrature Indole (Benz) Values,1.0
+1727,209,Litrature Indole (Benz) Values,1.0
+1728,209,Litrature Indole (Benz) Values,1.0
+1729,209,Litrature Indole (Benz) Values,1.0
+1730,210,Litrature Indole (Benz) Values,0.0
+1731,210,Litrature Indole (Benz) Values,0.0
+1732,210,Litrature Indole (Benz) Values,0.0
+1733,210,Litrature Indole (Benz) Values,0.0
+1734,210,Litrature Indole (Benz) Values,0.0
+1735,210,Litrature Indole (Benz) Values,0.0
+1736,210,Litrature Indole (Benz) Values,0.0
+1737,210,Litrature Indole (Benz) Values,0.0
+1738,210,Litrature Indole (Benz) Values,0.0
+1739,210,Litrature Indole (Benz) Values,0.0
+1740,211,Litrature Indole (Benz) Values,1.5
+1741,211,Litrature Indole (Benz) Values,1.5
+1742,211,Litrature Indole (Benz) Values,1.5
+1743,211,Litrature Indole (Benz) Values,1.5
+1744,211,Litrature Indole (Benz) Values,1.5
+1745,211,Litrature Indole (Benz) Values,1.5
+1746,211,Litrature Indole (Benz) Values,1.5
+1747,211,Litrature Indole (Benz) Values,1.5
+1748,211,Litrature Indole (Benz) Values,1.5
+1749,211,Litrature Indole (Benz) Values,1.5
+1750,212,Litrature Indole (Benz) Values,1.0
+1751,212,Litrature Indole (Benz) Values,1.0
+1752,212,Litrature Indole (Benz) Values,1.0
+1753,212,Litrature Indole (Benz) Values,1.0
+1754,212,Litrature Indole (Benz) Values,1.0
+1755,212,Litrature Indole (Benz) Values,1.0
+1756,212,Litrature Indole (Benz) Values,1.0
+1757,212,Litrature Indole (Benz) Values,1.0
+1758,212,Litrature Indole (Benz) Values,1.0
+1759,212,Litrature Indole (Benz) Values,1.0
+1760,213,Litrature Indole (Benz) Values,1.5
+1761,213,Litrature Indole (Benz) Values,1.5
+1762,213,Litrature Indole (Benz) Values,1.5
+1763,213,Litrature Indole (Benz) Values,1.5
+1764,213,Litrature Indole (Benz) Values,1.5
+1765,213,Litrature Indole (Benz) Values,1.5
+1766,213,Litrature Indole (Benz) Values,1.5
+1767,213,Litrature Indole (Benz) Values,1.5
+1768,213,Litrature Indole (Benz) Values,1.5
+1769,213,Litrature Indole (Benz) Values,1.5
+1770,214,Litrature Quinilones,0.0
+1771,214,Litrature Quinilones,0.0
+1772,214,Litrature Quinilones,0.0
+1773,214,Litrature Quinilones,0.0
+1774,214,Litrature Quinilones,0.0
+1775,214,Litrature Quinilones,0.0
+1776,214,Litrature Quinilones,0.0
+1777,214,Litrature Quinilones,0.0
+1778,214,Litrature Quinilones,0.0
+1779,214,Litrature Quinilones,0.0
+1780,215,Litrature Quinilones,1.0
+1781,215,Litrature Quinilones,1.0
+1782,215,Litrature Quinilones,1.0
+1783,215,Litrature Quinilones,1.0
+1784,215,Litrature Quinilones,1.0
+1785,215,Litrature Quinilones,1.0
+1786,215,Litrature Quinilones,1.0
+1787,215,Litrature Quinilones,1.0
+1788,215,Litrature Quinilones,1.0
+1789,215,Litrature Quinilones,1.0
+1790,216,Litrature Quinilones,1.5
+1791,216,Litrature Quinilones,1.5
+1792,216,Litrature Quinilones,1.5
+1793,216,Litrature Quinilones,1.5
+1794,216,Litrature Quinilones,1.5
+1795,216,Litrature Quinilones,1.5
+1796,216,Litrature Quinilones,1.5
+1797,216,Litrature Quinilones,1.5
+1798,216,Litrature Quinilones,1.5
+1799,216,Litrature Quinilones,1.5
+1800,217,Litrature Quinilones,1.5
+1801,217,Litrature Quinilones,1.5
+1802,217,Litrature Quinilones,1.5
+1803,217,Litrature Quinilones,1.5
+1804,217,Litrature Quinilones,1.5
+1805,217,Litrature Quinilones,1.5
+1806,217,Litrature Quinilones,1.5
+1807,217,Litrature Quinilones,1.5
+1808,217,Litrature Quinilones,1.5
+1809,217,Litrature Quinilones,1.5
+1810,218,Litrature Quinilones,1.5
+1811,218,Litrature Quinilones,1.5
+1812,218,Litrature Quinilones,1.5
+1813,218,Litrature Quinilones,1.5
+1814,218,Litrature Quinilones,1.5
+1815,218,Litrature Quinilones,1.5
+1816,218,Litrature Quinilones,1.5
+1817,218,Litrature Quinilones,1.5
+1818,218,Litrature Quinilones,1.5
+1819,218,Litrature Quinilones,1.5
+1820,219,Litrature Quinilones,1.5
+1821,219,Litrature Quinilones,1.5
+1822,219,Litrature Quinilones,1.5
+1823,219,Litrature Quinilones,1.5
+1824,219,Litrature Quinilones,1.5
+1825,219,Litrature Quinilones,1.5
+1826,219,Litrature Quinilones,1.5
+1827,219,Litrature Quinilones,1.5
+1828,219,Litrature Quinilones,1.5
+1829,219,Litrature Quinilones,1.5
+1830,220,Litrature Quinilones,1.5
+1831,220,Litrature Quinilones,1.5
+1832,220,Litrature Quinilones,1.5
+1833,220,Litrature Quinilones,1.5
+1834,220,Litrature Quinilones,1.5
+1835,220,Litrature Quinilones,1.5
+1836,220,Litrature Quinilones,1.5
+1837,220,Litrature Quinilones,1.5
+1838,220,Litrature Quinilones,1.5
+1839,220,Litrature Quinilones,1.5
+1840,221,Litrature Quinilones,1.5
+1841,221,Litrature Quinilones,1.5
+1842,221,Litrature Quinilones,1.5
+1843,221,Litrature Quinilones,1.5
+1844,221,Litrature Quinilones,1.5
+1845,221,Litrature Quinilones,1.5
+1846,221,Litrature Quinilones,1.5
+1847,221,Litrature Quinilones,1.5
+1848,221,Litrature Quinilones,1.5
+1849,221,Litrature Quinilones,1.5
+1850,222,Litrature Quinilones,1.5
+1851,222,Litrature Quinilones,1.5
+1852,222,Litrature Quinilones,1.5
+1853,222,Litrature Quinilones,1.5
+1854,222,Litrature Quinilones,1.5
+1855,222,Litrature Quinilones,1.5
+1856,222,Litrature Quinilones,1.5
+1857,222,Litrature Quinilones,1.5
+1858,222,Litrature Quinilones,1.5
+1859,222,Litrature Quinilones,1.5
+1860,223,Litrature Quinilones,1.5
+1861,223,Litrature Quinilones,1.5
+1862,223,Litrature Quinilones,1.5
+1863,223,Litrature Quinilones,1.5
+1864,223,Litrature Quinilones,1.5
+1865,223,Litrature Quinilones,1.5
+1866,223,Litrature Quinilones,1.5
+1867,223,Litrature Quinilones,1.5
+1868,223,Litrature Quinilones,1.5
+1869,223,Litrature Quinilones,1.5
+1870,224,Litrature Quinilones,1.5
+1871,224,Litrature Quinilones,1.5
+1872,224,Litrature Quinilones,1.5
+1873,224,Litrature Quinilones,1.5
+1874,224,Litrature Quinilones,1.5
+1875,224,Litrature Quinilones,1.5
+1876,224,Litrature Quinilones,1.5
+1877,224,Litrature Quinilones,1.5
+1878,224,Litrature Quinilones,1.5
+1879,224,Litrature Quinilones,1.5
+1880,225,Litrature Quinilones,1.5
+1881,225,Litrature Quinilones,1.5
+1882,225,Litrature Quinilones,1.5
+1883,225,Litrature Quinilones,1.5
+1884,225,Litrature Quinilones,1.5
+1885,225,Litrature Quinilones,1.5
+1886,225,Litrature Quinilones,1.5
+1887,225,Litrature Quinilones,1.5
+1888,225,Litrature Quinilones,1.5
+1889,225,Litrature Quinilones,1.5
+1890,226,Litrature Quinilones,1.5
+1891,226,Litrature Quinilones,1.5
+1892,226,Litrature Quinilones,1.5
+1893,226,Litrature Quinilones,1.5
+1894,226,Litrature Quinilones,1.5
+1895,226,Litrature Quinilones,1.5
+1896,226,Litrature Quinilones,1.5
+1897,226,Litrature Quinilones,1.5
+1898,226,Litrature Quinilones,1.5
+1899,226,Litrature Quinilones,1.5
+1900,227,Litrature Quinilones,1.5
+1901,227,Litrature Quinilones,1.5
+1902,227,Litrature Quinilones,1.5
+1903,227,Litrature Quinilones,1.5
+1904,227,Litrature Quinilones,1.5
+1905,227,Litrature Quinilones,1.5
+1906,227,Litrature Quinilones,1.5
+1907,227,Litrature Quinilones,1.5
+1908,227,Litrature Quinilones,1.5
+1909,227,Litrature Quinilones,1.5

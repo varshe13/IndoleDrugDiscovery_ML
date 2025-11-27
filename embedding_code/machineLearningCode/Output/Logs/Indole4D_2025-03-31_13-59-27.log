@@ -1,0 +1,833 @@
+logging_wrapper -    ==== 20250331T135927-0400.  ['train_VS_033025.py']====
+
+logging_wrapper -    --- Configurations ---
+logging_wrapper - name = Indole4D
+suffix = 
+model_name = enet2s
+model_description = EfficientNet V2 s
+dataset_name = 033124_all_GP_molecules_4D
+dataset_description = 2800 moledules
+root_data_dir = ../Data4D
+fname_indole = 033124_all_GP_molecules_4D.pickle
+fname_act = 033124_all_molecules_GP_activities.csv
+result_dir = ../Output/Results
+checkpoint_dir = ../Output/Checkpoints
+logfile_dir = ../Output/Logs
+random_seed = 42
+classes = ('Low', 'Hight')
+epochs = 200
+batch_size = 64
+split_ratio = (0.8, 0.2)
+workers = 8
+lr = 0.001
+max_lr = 0.001
+pin_memory = True
+verbose = True
+device = cuda:0
+n_gpu = 1
+dtype = <class 'torch.cuda.FloatTensor'>
+save_model = False
+
+logging_wrapper - 20250331T135928-0400
+   --- Dataset Info ---
+   images=1528, 382.
+logging_wrapper - 20250331T135928-0400:  Epoch 1/200:
+logging_wrapper -     epoch train loss = 0.725993. time = 3.1 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.660330. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.6465968586387435', 'f1_score: 0.755877034358047', 'roc_auc_score: 0.6766265060240964']
+logging_wrapper - 20250331T135932-0400:  Epoch 2/200:
+logging_wrapper -     epoch train loss = 0.566397. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.561628. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7539267015706806', 'f1_score: 0.8459016393442623', 'roc_auc_score: 0.6537951807228917']
+logging_wrapper - 20250331T135935-0400:  Epoch 3/200:
+logging_wrapper -     epoch train loss = 0.503347. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.527088. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7722513089005235', 'f1_score: 0.8571428571428571', 'roc_auc_score: 0.7235542168674699']
+logging_wrapper - 20250331T135939-0400:  Epoch 4/200:
+logging_wrapper -     epoch train loss = 0.423783. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.468851. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8824476650563607', 'roc_auc_score: 0.774277108433735']
+logging_wrapper - 20250331T135942-0400:  Epoch 5/200:
+logging_wrapper -     epoch train loss = 0.378393. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.446099. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8878357030015798', 'roc_auc_score: 0.7797590361445784']
+logging_wrapper - 20250331T135945-0400:  Epoch 6/200:
+logging_wrapper -     epoch train loss = 0.308913. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.449259. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8923556942277691', 'roc_auc_score: 0.7284939759036144']
+logging_wrapper - 20250331T135948-0400:  Epoch 7/200:
+logging_wrapper -     epoch train loss = 0.245670. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.410679. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8298429319371727', 'f1_score: 0.8985959438377535', 'roc_auc_score: 0.7463253012048193']
+logging_wrapper - 20250331T135952-0400:  Epoch 8/200:
+logging_wrapper -     epoch train loss = 0.190595. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.442247. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7931937172774869', 'f1_score: 0.8751974723538705', 'roc_auc_score: 0.7365662650602411']
+logging_wrapper - 20250331T135955-0400:  Epoch 9/200:
+logging_wrapper -     epoch train loss = 0.159306. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.436940. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8881889763779528', 'roc_auc_score: 0.7691566265060241']
+logging_wrapper - 20250331T135958-0400:  Epoch 10/200:
+logging_wrapper -     epoch train loss = 0.121093. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.438611. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.896124031007752', 'roc_auc_score: 0.7654216867469881']
+logging_wrapper - 20250331T140002-0400:  Epoch 11/200:
+logging_wrapper -     epoch train loss = 0.100808. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.456612. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8298429319371727', 'f1_score: 0.8985959438377535', 'roc_auc_score: 0.7458433734939758']
+logging_wrapper - 20250331T140005-0400:  Epoch 12/200:
+logging_wrapper -     epoch train loss = 0.082549. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.471958. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7905759162303665', 'f1_score: 0.8738170347003155', 'roc_auc_score: 0.7639759036144579']
+logging_wrapper - 20250331T140008-0400:  Epoch 13/200:
+logging_wrapper -     epoch train loss = 0.068923. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.499772. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.837696335078534', 'f1_score: 0.9025157232704403', 'roc_auc_score: 0.8001204819277107']
+logging_wrapper - 20250331T140012-0400:  Epoch 14/200:
+logging_wrapper -     epoch train loss = 0.058365. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.536505. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8324607329842932', 'f1_score: 0.9', 'roc_auc_score: 0.8019277108433736']
+logging_wrapper - 20250331T140015-0400:  Epoch 15/200:
+logging_wrapper -     epoch train loss = 0.040377. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.576135. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8913385826771654', 'roc_auc_score: 0.7695180722891567']
+logging_wrapper - 20250331T140018-0400:  Epoch 16/200:
+logging_wrapper -     epoch train loss = 0.040051. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.544526. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8403141361256544', 'f1_score: 0.9039370078740158', 'roc_auc_score: 0.829578313253012']
+logging_wrapper - 20250331T140022-0400:  Epoch 17/200:
+logging_wrapper -     epoch train loss = 0.027727. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.624640. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.837696335078534', 'f1_score: 0.9025157232704403', 'roc_auc_score: 0.8246987951807229']
+logging_wrapper - 20250331T140025-0400:  Epoch 18/200:
+logging_wrapper -     epoch train loss = 0.024093. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.663678. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8298429319371727', 'f1_score: 0.8973143759873617', 'roc_auc_score: 0.8110240963855422']
+logging_wrapper - 20250331T140028-0400:  Epoch 19/200:
+logging_wrapper -     epoch train loss = 0.022581. time = 3.0 seconds. lr=0.001
+logging_wrapper -     Test loss = 0.658002. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8829113924050633', 'roc_auc_score: 0.8154819277108434']
+logging_wrapper - 20250331T140031-0400:  Epoch 20/200:
+logging_wrapper -     epoch train loss = 0.024423. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.696351. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8298429319371727', 'f1_score: 0.8979591836734694', 'roc_auc_score: 0.789578313253012']
+logging_wrapper - 20250331T140035-0400:  Epoch 21/200:
+logging_wrapper -     epoch train loss = 0.016164. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.724911. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8839427662957074', 'roc_auc_score: 0.7908433734939758']
+logging_wrapper - 20250331T140038-0400:  Epoch 22/200:
+logging_wrapper -     epoch train loss = 0.013145. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.695374. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.837696335078534', 'f1_score: 0.903125', 'roc_auc_score: 0.8107228915662651']
+logging_wrapper - 20250331T140041-0400:  Epoch 23/200:
+logging_wrapper -     epoch train loss = 0.012876. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.779176. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8324607329842932', 'f1_score: 0.89937106918239', 'roc_auc_score: 0.8082530120481928']
+logging_wrapper - 20250331T140045-0400:  Epoch 24/200:
+logging_wrapper -     epoch train loss = 0.011701. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.710470. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8298429319371727', 'f1_score: 0.8985959438377535', 'roc_auc_score: 0.8100602409638553']
+logging_wrapper - 20250331T140048-0400:  Epoch 25/200:
+logging_wrapper -     epoch train loss = 0.010715. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.775626. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8272251308900523', 'f1_score: 0.8962264150943396', 'roc_auc_score: 0.8050602409638554']
+logging_wrapper - 20250331T140051-0400:  Epoch 26/200:
+logging_wrapper -     epoch train loss = 0.008722. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.792770. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8885350318471338', 'roc_auc_score: 0.8166867469879519']
+logging_wrapper - 20250331T140055-0400:  Epoch 27/200:
+logging_wrapper -     epoch train loss = 0.010007. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.765736. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8938193343898574', 'roc_auc_score: 0.8078313253012047']
+logging_wrapper - 20250331T140058-0400:  Epoch 28/200:
+logging_wrapper -     epoch train loss = 0.009607. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.763464. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8864', 'roc_auc_score: 0.8300602409638554']
+logging_wrapper - 20250331T140101-0400:  Epoch 29/200:
+logging_wrapper -     epoch train loss = 0.008405. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.855236. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8892405063291139', 'roc_auc_score: 0.8018674698795181']
+logging_wrapper - 20250331T140105-0400:  Epoch 30/200:
+logging_wrapper -     epoch train loss = 0.008581. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.768213. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8906497622820919', 'roc_auc_score: 0.8260240963855421']
+logging_wrapper - 20250331T140108-0400:  Epoch 31/200:
+logging_wrapper -     epoch train loss = 0.006634. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.839029. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8899521531100478', 'roc_auc_score: 0.8031325301204819']
+logging_wrapper - 20250331T140111-0400:  Epoch 32/200:
+logging_wrapper -     epoch train loss = 0.007998. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.857576. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.837696335078534', 'f1_score: 0.9018987341772152', 'roc_auc_score: 0.8225301204819276']
+logging_wrapper - 20250331T140115-0400:  Epoch 33/200:
+logging_wrapper -     epoch train loss = 0.006747. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.904425. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8793650793650793', 'roc_auc_score: 0.7930722891566265']
+logging_wrapper - 20250331T140118-0400:  Epoch 34/200:
+logging_wrapper -     epoch train loss = 0.005723. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.880158. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.890302066772655', 'roc_auc_score: 0.815301204819277']
+logging_wrapper - 20250331T140121-0400:  Epoch 35/200:
+logging_wrapper -     epoch train loss = 0.007281. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.856044. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8849840255591054', 'roc_auc_score: 0.8065060240963856']
+logging_wrapper - 20250331T140125-0400:  Epoch 36/200:
+logging_wrapper -     epoch train loss = 0.005505. time = 2.9 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.867952. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8814102564102564', 'roc_auc_score: 0.8121686746987952']
+logging_wrapper - 20250331T140128-0400:  Epoch 37/200:
+logging_wrapper -     epoch train loss = 0.006339. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.892251. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8857142857142857', 'roc_auc_score: 0.8098192771084337']
+logging_wrapper - 20250331T140131-0400:  Epoch 38/200:
+logging_wrapper -     epoch train loss = 0.005605. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.962103. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8931419457735247', 'roc_auc_score: 0.8110843373493976']
+logging_wrapper - 20250331T140134-0400:  Epoch 39/200:
+logging_wrapper -     epoch train loss = 0.004544. time = 3.0 seconds. lr=0.0008513399516232312
+logging_wrapper -     Test loss = 0.914911. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8853503184713376', 'roc_auc_score: 0.8063855421686746']
+logging_wrapper - 20250331T140138-0400:  Epoch 40/200:
+logging_wrapper -     epoch train loss = 0.004608. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.843064. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8896', 'roc_auc_score: 0.8299397590361447']
+logging_wrapper - 20250331T140141-0400:  Epoch 41/200:
+logging_wrapper -     epoch train loss = 0.006764. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.798646. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8938193343898574', 'roc_auc_score: 0.8105421686746987']
+logging_wrapper - 20250331T140144-0400:  Epoch 42/200:
+logging_wrapper -     epoch train loss = 0.003952. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.929351. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8899521531100478', 'roc_auc_score: 0.802289156626506']
+logging_wrapper - 20250331T140148-0400:  Epoch 43/200:
+logging_wrapper -     epoch train loss = 0.004549. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.939583. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8928', 'roc_auc_score: 0.8218072289156627']
+logging_wrapper - 20250331T140151-0400:  Epoch 44/200:
+logging_wrapper -     epoch train loss = 0.005658. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.937192. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8931419457735247', 'roc_auc_score: 0.816987951807229']
+logging_wrapper - 20250331T140154-0400:  Epoch 45/200:
+logging_wrapper -     epoch train loss = 0.004271. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.992863. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8796147672552167', 'roc_auc_score: 0.8097590361445783']
+logging_wrapper - 20250331T140158-0400:  Epoch 46/200:
+logging_wrapper -     epoch train loss = 0.004651. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.956214. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8941548183254344', 'roc_auc_score: 0.8146385542168675']
+logging_wrapper - 20250331T140201-0400:  Epoch 47/200:
+logging_wrapper -     epoch train loss = 0.004858. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.923849. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8924558587479936', 'roc_auc_score: 0.8228915662650602']
+logging_wrapper - 20250331T140204-0400:  Epoch 48/200:
+logging_wrapper -     epoch train loss = 0.005606. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.906759. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8885350318471338', 'roc_auc_score: 0.8002409638554215']
+logging_wrapper - 20250331T140208-0400:  Epoch 49/200:
+logging_wrapper -     epoch train loss = 0.004529. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.959172. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8219895287958116', 'f1_score: 0.8920634920634921', 'roc_auc_score: 0.8257228915662651']
+logging_wrapper - 20250331T140211-0400:  Epoch 50/200:
+logging_wrapper -     epoch train loss = 0.004334. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.963793. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8881789137380192', 'roc_auc_score: 0.8157831325301206']
+logging_wrapper - 20250331T140214-0400:  Epoch 51/200:
+logging_wrapper -     epoch train loss = 0.004565. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.871746. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8324607329842932', 'f1_score: 0.8987341772151899', 'roc_auc_score: 0.823433734939759']
+logging_wrapper - 20250331T140218-0400:  Epoch 52/200:
+logging_wrapper -     epoch train loss = 0.003396. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.924401. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8849840255591054', 'roc_auc_score: 0.8102409638554218']
+logging_wrapper - 20250331T140221-0400:  Epoch 53/200:
+logging_wrapper -     epoch train loss = 0.003466. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 1.002035. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8842443729903537', 'roc_auc_score: 0.8165060240963855']
+logging_wrapper - 20250331T140224-0400:  Epoch 54/200:
+logging_wrapper -     epoch train loss = 0.003725. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.932248. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8272251308900523', 'f1_score: 0.8949044585987261', 'roc_auc_score: 0.8181927710843373']
+logging_wrapper - 20250331T140228-0400:  Epoch 55/200:
+logging_wrapper -     epoch train loss = 0.004662. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 1.042355. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8298429319371727', 'f1_score: 0.8969889064976229', 'roc_auc_score: 0.8162048192771084']
+logging_wrapper - 20250331T140231-0400:  Epoch 56/200:
+logging_wrapper -     epoch train loss = 0.003641. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.976942. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8896', 'roc_auc_score: 0.8098192771084337']
+logging_wrapper - 20250331T140234-0400:  Epoch 57/200:
+logging_wrapper -     epoch train loss = 0.007372. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.865481. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8219895287958116', 'f1_score: 0.89171974522293', 'roc_auc_score: 0.8216265060240963']
+logging_wrapper - 20250331T140238-0400:  Epoch 58/200:
+logging_wrapper -     epoch train loss = 0.005570. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.923800. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.886762360446571', 'roc_auc_score: 0.809578313253012']
+logging_wrapper - 20250331T140241-0400:  Epoch 59/200:
+logging_wrapper -     epoch train loss = 0.003337. time = 3.0 seconds. lr=0.000724779674783349
+logging_wrapper -     Test loss = 0.972568. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8824476650563607', 'roc_auc_score: 0.8145180722891566']
+logging_wrapper - 20250331T140244-0400:  Epoch 60/200:
+logging_wrapper -     epoch train loss = 0.003536. time = 2.9 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.902713. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8350785340314136', 'f1_score: 0.9004739336492891', 'roc_auc_score: 0.8157228915662651']
+logging_wrapper - 20250331T140248-0400:  Epoch 61/200:
+logging_wrapper -     epoch train loss = 0.002819. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.915955. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8896', 'roc_auc_score: 0.8303012048192769']
+logging_wrapper - 20250331T140251-0400:  Epoch 62/200:
+logging_wrapper -     epoch train loss = 0.004058. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.960166. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8888888888888888', 'roc_auc_score: 0.8080120481927711']
+logging_wrapper - 20250331T140254-0400:  Epoch 63/200:
+logging_wrapper -     epoch train loss = 0.002772. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.054846. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8835725677830941', 'roc_auc_score: 0.8117469879518072']
+logging_wrapper - 20250331T140257-0400:  Epoch 64/200:
+logging_wrapper -     epoch train loss = 0.003014. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.083714. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8899521531100478', 'roc_auc_score: 0.812289156626506']
+logging_wrapper - 20250331T140301-0400:  Epoch 65/200:
+logging_wrapper -     epoch train loss = 0.002739. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.900571. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8878205128205128', 'roc_auc_score: 0.8337349397590362']
+logging_wrapper - 20250331T140304-0400:  Epoch 66/200:
+logging_wrapper -     epoch train loss = 0.003147. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.942135. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8888888888888888', 'roc_auc_score: 0.822289156626506']
+logging_wrapper - 20250331T140307-0400:  Epoch 67/200:
+logging_wrapper -     epoch train loss = 0.003269. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.048102. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.890302066772655', 'roc_auc_score: 0.817831325301205']
+logging_wrapper - 20250331T140311-0400:  Epoch 68/200:
+logging_wrapper -     epoch train loss = 0.003987. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.064145. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8796147672552167', 'roc_auc_score: 0.8036746987951807']
+logging_wrapper - 20250331T140314-0400:  Epoch 69/200:
+logging_wrapper -     epoch train loss = 0.003521. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.013484. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8778135048231511', 'roc_auc_score: 0.8034939759036146']
+logging_wrapper - 20250331T140317-0400:  Epoch 70/200:
+logging_wrapper -     epoch train loss = 0.003205. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.933583. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8909952606635071', 'roc_auc_score: 0.8051204819277109']
+logging_wrapper - 20250331T140321-0400:  Epoch 71/200:
+logging_wrapper -     epoch train loss = 0.002891. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.995731. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8778135048231511', 'roc_auc_score: 0.8015060240963855']
+logging_wrapper - 20250331T140324-0400:  Epoch 72/200:
+logging_wrapper -     epoch train loss = 0.002450. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.016977. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8864', 'roc_auc_score: 0.8178915662650602']
+logging_wrapper - 20250331T140327-0400:  Epoch 73/200:
+logging_wrapper -     epoch train loss = 0.002045. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.022594. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8849840255591054', 'roc_auc_score: 0.8159036144578313']
+logging_wrapper - 20250331T140331-0400:  Epoch 74/200:
+logging_wrapper -     epoch train loss = 0.002441. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.096374. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8810289389067524', 'roc_auc_score: 0.8063855421686748']
+logging_wrapper - 20250331T140334-0400:  Epoch 75/200:
+logging_wrapper -     epoch train loss = 0.002572. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.029518. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8878205128205128', 'roc_auc_score: 0.8033132530120481']
+logging_wrapper - 20250331T140337-0400:  Epoch 76/200:
+logging_wrapper -     epoch train loss = 0.003416. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.986230. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8828250401284109', 'roc_auc_score: 0.812710843373494']
+logging_wrapper - 20250331T140341-0400:  Epoch 77/200:
+logging_wrapper -     epoch train loss = 0.003013. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.977397. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8846153846153846', 'roc_auc_score: 0.8160843373493977']
+logging_wrapper - 20250331T140344-0400:  Epoch 78/200:
+logging_wrapper -     epoch train loss = 0.002441. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 0.926191. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8909952606635071', 'roc_auc_score: 0.8234939759036145']
+logging_wrapper - 20250331T140347-0400:  Epoch 79/200:
+logging_wrapper -     epoch train loss = 0.002702. time = 3.0 seconds. lr=0.000617033860180527
+logging_wrapper -     Test loss = 1.061003. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8219895287958116', 'f1_score: 0.8913738019169329', 'roc_auc_score: 0.8213253012048193']
+logging_wrapper - 20250331T140351-0400:  Epoch 80/200:
+logging_wrapper -     epoch train loss = 0.002499. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.037753. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8888888888888888', 'roc_auc_score: 0.833433734939759']
+logging_wrapper - 20250331T140354-0400:  Epoch 81/200:
+logging_wrapper -     epoch train loss = 0.002578. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.043177. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8892405063291139', 'roc_auc_score: 0.8190361445783133']
+logging_wrapper - 20250331T140357-0400:  Epoch 82/200:
+logging_wrapper -     epoch train loss = 0.002062. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.086719. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8770226537216829', 'roc_auc_score: 0.8294578313253013']
+logging_wrapper - 20250331T140401-0400:  Epoch 83/200:
+logging_wrapper -     epoch train loss = 0.002133. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.024718. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8324607329842932', 'f1_score: 0.8987341772151899', 'roc_auc_score: 0.8318072289156627']
+logging_wrapper - 20250331T140404-0400:  Epoch 84/200:
+logging_wrapper -     epoch train loss = 0.002806. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.073605. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7958115183246073', 'f1_score: 0.8741935483870967', 'roc_auc_score: 0.8218072289156627']
+logging_wrapper - 20250331T140407-0400:  Epoch 85/200:
+logging_wrapper -     epoch train loss = 0.003133. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.012973. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8906497622820919', 'roc_auc_score: 0.8191566265060242']
+logging_wrapper - 20250331T140411-0400:  Epoch 86/200:
+logging_wrapper -     epoch train loss = 0.002225. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.026441. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8899521531100478', 'roc_auc_score: 0.8080120481927712']
+logging_wrapper - 20250331T140414-0400:  Epoch 87/200:
+logging_wrapper -     epoch train loss = 0.002823. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.120666. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8272251308900523', 'f1_score: 0.8955696202531646', 'roc_auc_score: 0.8189759036144579']
+logging_wrapper - 20250331T140417-0400:  Epoch 88/200:
+logging_wrapper -     epoch train loss = 0.001951. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.066382. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8864', 'roc_auc_score: 0.8140361445783133']
+logging_wrapper - 20250331T140421-0400:  Epoch 89/200:
+logging_wrapper -     epoch train loss = 0.001789. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.075495. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8885350318471338', 'roc_auc_score: 0.825843373493976']
+logging_wrapper - 20250331T140424-0400:  Epoch 90/200:
+logging_wrapper -     epoch train loss = 0.003000. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.052251. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8842443729903537', 'roc_auc_score: 0.8153012048192769']
+logging_wrapper - 20250331T140427-0400:  Epoch 91/200:
+logging_wrapper -     epoch train loss = 0.001984. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.061690. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8881789137380192', 'roc_auc_score: 0.8301204819277107']
+logging_wrapper - 20250331T140430-0400:  Epoch 92/200:
+logging_wrapper -     epoch train loss = 0.002068. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.050836. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8899521531100478', 'roc_auc_score: 0.8139759036144577']
+logging_wrapper - 20250331T140434-0400:  Epoch 93/200:
+logging_wrapper -     epoch train loss = 0.002300. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.081777. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8885350318471338', 'roc_auc_score: 0.8034939759036145']
+logging_wrapper - 20250331T140437-0400:  Epoch 94/200:
+logging_wrapper -     epoch train loss = 0.001999. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.123473. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8896', 'roc_auc_score: 0.8189759036144579']
+logging_wrapper - 20250331T140440-0400:  Epoch 95/200:
+logging_wrapper -     epoch train loss = 0.002854. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.210042. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7958115183246073', 'f1_score: 0.8737864077669902', 'roc_auc_score: 0.8071686746987952']
+logging_wrapper - 20250331T140444-0400:  Epoch 96/200:
+logging_wrapper -     epoch train loss = 0.001893. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.103071. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8820678513731826', 'roc_auc_score: 0.815421686746988']
+logging_wrapper - 20250331T140447-0400:  Epoch 97/200:
+logging_wrapper -     epoch train loss = 0.001834. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.013991. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8878205128205128', 'roc_auc_score: 0.8195783132530121']
+logging_wrapper - 20250331T140450-0400:  Epoch 98/200:
+logging_wrapper -     epoch train loss = 0.001788. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.034004. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7958115183246073', 'f1_score: 0.8741935483870967', 'roc_auc_score: 0.8171084337349397']
+logging_wrapper - 20250331T140454-0400:  Epoch 99/200:
+logging_wrapper -     epoch train loss = 0.002855. time = 3.0 seconds. lr=0.000525305571500212
+logging_wrapper -     Test loss = 1.164187. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8802588996763754', 'roc_auc_score: 0.8195180722891567']
+logging_wrapper - 20250331T140457-0400:  Epoch 100/200:
+logging_wrapper -     epoch train loss = 0.001860. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.172507. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8864', 'roc_auc_score: 0.810722891566265']
+logging_wrapper - 20250331T140500-0400:  Epoch 101/200:
+logging_wrapper -     epoch train loss = 0.001839. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.138080. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8828250401284109', 'roc_auc_score: 0.8140963855421688']
+logging_wrapper - 20250331T140504-0400:  Epoch 102/200:
+logging_wrapper -     epoch train loss = 0.001787. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.159255. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8788368336025848', 'roc_auc_score: 0.818433734939759']
+logging_wrapper - 20250331T140507-0400:  Epoch 103/200:
+logging_wrapper -     epoch train loss = 0.001794. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.163165. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7958115183246073', 'f1_score: 0.8737864077669902', 'roc_auc_score: 0.8099397590361446']
+logging_wrapper - 20250331T140510-0400:  Epoch 104/200:
+logging_wrapper -     epoch train loss = 0.001891. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.132148. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8792270531400966', 'roc_auc_score: 0.7983132530120481']
+logging_wrapper - 20250331T140514-0400:  Epoch 105/200:
+logging_wrapper -     epoch train loss = 0.001843. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.160925. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8846153846153846', 'roc_auc_score: 0.8085542168674698']
+logging_wrapper - 20250331T140517-0400:  Epoch 106/200:
+logging_wrapper -     epoch train loss = 0.001693. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.120708. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8788368336025848', 'roc_auc_score: 0.810722891566265']
+logging_wrapper - 20250331T140520-0400:  Epoch 107/200:
+logging_wrapper -     epoch train loss = 0.002196. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.197890. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8842443729903537', 'roc_auc_score: 0.8103012048192771']
+logging_wrapper - 20250331T140524-0400:  Epoch 108/200:
+logging_wrapper -     epoch train loss = 0.002327. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.055768. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8849270664505673', 'roc_auc_score: 0.8371084337349398']
+logging_wrapper - 20250331T140527-0400:  Epoch 109/200:
+logging_wrapper -     epoch train loss = 0.001332. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.147820. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.88', 'roc_auc_score: 0.8060240963855421']
+logging_wrapper - 20250331T140530-0400:  Epoch 110/200:
+logging_wrapper -     epoch train loss = 0.002302. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.188520. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8832', 'roc_auc_score: 0.8148795180722892']
+logging_wrapper - 20250331T140534-0400:  Epoch 111/200:
+logging_wrapper -     epoch train loss = 0.001539. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.065087. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8849840255591054', 'roc_auc_score: 0.8044578313253012']
+logging_wrapper - 20250331T140537-0400:  Epoch 112/200:
+logging_wrapper -     epoch train loss = 0.001612. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.153882. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8838709677419355', 'roc_auc_score: 0.8296385542168675']
+logging_wrapper - 20250331T140540-0400:  Epoch 113/200:
+logging_wrapper -     epoch train loss = 0.001967. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.155683. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8934817170111288', 'roc_auc_score: 0.8150602409638554']
+logging_wrapper - 20250331T140544-0400:  Epoch 114/200:
+logging_wrapper -     epoch train loss = 0.002245. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.138800. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8820678513731826', 'roc_auc_score: 0.8149397590361446']
+logging_wrapper - 20250331T140547-0400:  Epoch 115/200:
+logging_wrapper -     epoch train loss = 0.001762. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.100579. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8219895287958116', 'f1_score: 0.8913738019169329', 'roc_auc_score: 0.8192168674698795']
+logging_wrapper - 20250331T140550-0400:  Epoch 116/200:
+logging_wrapper -     epoch train loss = 0.001504. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.309505. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8814102564102564', 'roc_auc_score: 0.8137349397590361']
+logging_wrapper - 20250331T140554-0400:  Epoch 117/200:
+logging_wrapper -     epoch train loss = 0.001796. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.201392. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7984293193717278', 'f1_score: 0.8764044943820225', 'roc_auc_score: 0.8094578313253012']
+logging_wrapper - 20250331T140557-0400:  Epoch 118/200:
+logging_wrapper -     epoch train loss = 0.001555. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.102198. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8814102564102564', 'roc_auc_score: 0.8133734939759036']
+logging_wrapper - 20250331T140600-0400:  Epoch 119/200:
+logging_wrapper -     epoch train loss = 0.001644. time = 3.0 seconds. lr=0.0004472136206459254
+logging_wrapper -     Test loss = 1.221850. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8778135048231511', 'roc_auc_score: 0.7967469879518072']
+logging_wrapper - 20250331T140604-0400:  Epoch 120/200:
+logging_wrapper -     epoch train loss = 0.001866. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.157609. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8802588996763754', 'roc_auc_score: 0.8189156626506024']
+logging_wrapper - 20250331T140607-0400:  Epoch 121/200:
+logging_wrapper -     epoch train loss = 0.001424. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.224264. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7827225130890052', 'f1_score: 0.8646003262642741', 'roc_auc_score: 0.7876506024096385']
+logging_wrapper - 20250331T140610-0400:  Epoch 122/200:
+logging_wrapper -     epoch train loss = 0.001497. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.207464. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7958115183246073', 'f1_score: 0.8737864077669902', 'roc_auc_score: 0.8135542168674699']
+logging_wrapper - 20250331T140613-0400:  Epoch 123/200:
+logging_wrapper -     epoch train loss = 0.001216. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.190977. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8878205128205128', 'roc_auc_score: 0.8158433734939761']
+logging_wrapper - 20250331T140617-0400:  Epoch 124/200:
+logging_wrapper -     epoch train loss = 0.001193. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.211740. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8931419457735247', 'roc_auc_score: 0.8045783132530121']
+logging_wrapper - 20250331T140620-0400:  Epoch 125/200:
+logging_wrapper -     epoch train loss = 0.001418. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.219269. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7905759162303665', 'f1_score: 0.8709677419354839', 'roc_auc_score: 0.7964457831325301']
+logging_wrapper - 20250331T140623-0400:  Epoch 126/200:
+logging_wrapper -     epoch train loss = 0.001296. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.232588. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.887459807073955', 'roc_auc_score: 0.8154216867469879']
+logging_wrapper - 20250331T140627-0400:  Epoch 127/200:
+logging_wrapper -     epoch train loss = 0.001838. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.145397. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8846153846153846', 'roc_auc_score: 0.8174698795180723']
+logging_wrapper - 20250331T140630-0400:  Epoch 128/200:
+logging_wrapper -     epoch train loss = 0.001633. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.198022. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8846153846153846', 'roc_auc_score: 0.8124096385542169']
+logging_wrapper - 20250331T140633-0400:  Epoch 129/200:
+logging_wrapper -     epoch train loss = 0.001176. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.149558. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8792270531400966', 'roc_auc_score: 0.8248795180722892']
+logging_wrapper - 20250331T140637-0400:  Epoch 130/200:
+logging_wrapper -     epoch train loss = 0.001584. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.130944. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8878205128205128', 'roc_auc_score: 0.818433734939759']
+logging_wrapper - 20250331T140640-0400:  Epoch 131/200:
+logging_wrapper -     epoch train loss = 0.001312. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.177902. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8828250401284109', 'roc_auc_score: 0.8218674698795181']
+logging_wrapper - 20250331T140643-0400:  Epoch 132/200:
+logging_wrapper -     epoch train loss = 0.001359. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.123460. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8878205128205128', 'roc_auc_score: 0.8077108433734939']
+logging_wrapper - 20250331T140647-0400:  Epoch 133/200:
+logging_wrapper -     epoch train loss = 0.001621. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.283557. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8864', 'roc_auc_score: 0.8092168674698795']
+logging_wrapper - 20250331T140650-0400:  Epoch 134/200:
+logging_wrapper -     epoch train loss = 0.001655. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.228001. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7879581151832461', 'f1_score: 0.8691437802907916', 'roc_auc_score: 0.7932530120481929']
+logging_wrapper - 20250331T140653-0400:  Epoch 135/200:
+logging_wrapper -     epoch train loss = 0.001437. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.197982. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8806451612903226', 'roc_auc_score: 0.8186746987951806']
+logging_wrapper - 20250331T140657-0400:  Epoch 136/200:
+logging_wrapper -     epoch train loss = 0.001613. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.183713. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8878205128205128', 'roc_auc_score: 0.801144578313253']
+logging_wrapper - 20250331T140700-0400:  Epoch 137/200:
+logging_wrapper -     epoch train loss = 0.001555. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.194202. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8796147672552167', 'roc_auc_score: 0.8123493975903614']
+logging_wrapper - 20250331T140703-0400:  Epoch 138/200:
+logging_wrapper -     epoch train loss = 0.001435. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.155397. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.887459807073955', 'roc_auc_score: 0.8155421686746986']
+logging_wrapper - 20250331T140707-0400:  Epoch 139/200:
+logging_wrapper -     epoch train loss = 0.001242. time = 3.0 seconds. lr=0.000380730809411034
+logging_wrapper -     Test loss = 1.128630. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8219895287958116', 'f1_score: 0.8913738019169329', 'roc_auc_score: 0.8128915662650603']
+logging_wrapper - 20250331T140710-0400:  Epoch 140/200:
+logging_wrapper -     epoch train loss = 0.001340. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.238357. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8774193548387097', 'roc_auc_score: 0.8110843373493976']
+logging_wrapper - 20250331T140713-0400:  Epoch 141/200:
+logging_wrapper -     epoch train loss = 0.001565. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.235005. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8832', 'roc_auc_score: 0.8057831325301205']
+logging_wrapper - 20250331T140717-0400:  Epoch 142/200:
+logging_wrapper -     epoch train loss = 0.001487. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.297152. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8766233766233766', 'roc_auc_score: 0.8074096385542169']
+logging_wrapper - 20250331T140720-0400:  Epoch 143/200:
+logging_wrapper -     epoch train loss = 0.001356. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.175253. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8824476650563607', 'roc_auc_score: 0.8312650602409639']
+logging_wrapper - 20250331T140723-0400:  Epoch 144/200:
+logging_wrapper -     epoch train loss = 0.001677. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.221273. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8849840255591054', 'roc_auc_score: 0.8152409638554217']
+logging_wrapper - 20250331T140727-0400:  Epoch 145/200:
+logging_wrapper -     epoch train loss = 0.001276. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.226107. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8782051282051282', 'roc_auc_score: 0.8028915662650602']
+logging_wrapper - 20250331T140730-0400:  Epoch 146/200:
+logging_wrapper -     epoch train loss = 0.001552. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.222492. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7931937172774869', 'f1_score: 0.8723747980613893', 'roc_auc_score: 0.8159036144578314']
+logging_wrapper - 20250331T140733-0400:  Epoch 147/200:
+logging_wrapper -     epoch train loss = 0.001021. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.197489. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8864', 'roc_auc_score: 0.8210843373493976']
+logging_wrapper - 20250331T140737-0400:  Epoch 148/200:
+logging_wrapper -     epoch train loss = 0.001481. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.235271. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8802588996763754', 'roc_auc_score: 0.8148192771084336']
+logging_wrapper - 20250331T140740-0400:  Epoch 149/200:
+logging_wrapper -     epoch train loss = 0.001955. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.246832. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8810289389067524', 'roc_auc_score: 0.8029518072289156']
+logging_wrapper - 20250331T140743-0400:  Epoch 150/200:
+logging_wrapper -     epoch train loss = 0.001327. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.204943. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8796147672552167', 'roc_auc_score: 0.8137349397590361']
+logging_wrapper - 20250331T140746-0400:  Epoch 151/200:
+logging_wrapper -     epoch train loss = 0.001598. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.109989. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.887459807073955', 'roc_auc_score: 0.8151204819277109']
+logging_wrapper - 20250331T140750-0400:  Epoch 152/200:
+logging_wrapper -     epoch train loss = 0.001138. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.189668. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8828250401284109', 'roc_auc_score: 0.8113855421686748']
+logging_wrapper - 20250331T140753-0400:  Epoch 153/200:
+logging_wrapper -     epoch train loss = 0.002314. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.197882. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8842443729903537', 'roc_auc_score: 0.801566265060241']
+logging_wrapper - 20250331T140756-0400:  Epoch 154/200:
+logging_wrapper -     epoch train loss = 0.001412. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.159323. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8796147672552167', 'roc_auc_score: 0.8202409638554217']
+logging_wrapper - 20250331T140800-0400:  Epoch 155/200:
+logging_wrapper -     epoch train loss = 0.001921. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.275980. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8774193548387097', 'roc_auc_score: 0.7915060240963855']
+logging_wrapper - 20250331T140803-0400:  Epoch 156/200:
+logging_wrapper -     epoch train loss = 0.001135. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.181280. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8810289389067524', 'roc_auc_score: 0.8212650602409638']
+logging_wrapper - 20250331T140806-0400:  Epoch 157/200:
+logging_wrapper -     epoch train loss = 0.001940. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.249482. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7984293193717278', 'f1_score: 0.8764044943820225', 'roc_auc_score: 0.8042168674698794']
+logging_wrapper - 20250331T140810-0400:  Epoch 158/200:
+logging_wrapper -     epoch train loss = 0.001088. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.209399. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8878205128205128', 'roc_auc_score: 0.8078915662650601']
+logging_wrapper - 20250331T140813-0400:  Epoch 159/200:
+logging_wrapper -     epoch train loss = 0.001356. time = 3.0 seconds. lr=0.0003241313388571143
+logging_wrapper -     Test loss = 1.173169. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8864', 'roc_auc_score: 0.8258433734939759']
+logging_wrapper - 20250331T140816-0400:  Epoch 160/200:
+logging_wrapper -     epoch train loss = 0.001073. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.099680. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8838709677419355', 'roc_auc_score: 0.8366265060240964']
+logging_wrapper - 20250331T140820-0400:  Epoch 161/200:
+logging_wrapper -     epoch train loss = 0.001935. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.190436. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8899521531100478', 'roc_auc_score: 0.8151807228915662']
+logging_wrapper - 20250331T140823-0400:  Epoch 162/200:
+logging_wrapper -     epoch train loss = 0.001659. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.198617. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7984293193717278', 'f1_score: 0.8764044943820225', 'roc_auc_score: 0.8076506024096386']
+logging_wrapper - 20250331T140826-0400:  Epoch 163/200:
+logging_wrapper -     epoch train loss = 0.001933. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.189414. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8881789137380192', 'roc_auc_score: 0.8146385542168675']
+logging_wrapper - 20250331T140830-0400:  Epoch 164/200:
+logging_wrapper -     epoch train loss = 0.001119. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.110990. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8806451612903226', 'roc_auc_score: 0.826566265060241']
+logging_wrapper - 20250331T140833-0400:  Epoch 165/200:
+logging_wrapper -     epoch train loss = 0.001233. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.137157. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8272251308900523', 'f1_score: 0.8952380952380953', 'roc_auc_score: 0.8222891566265059']
+logging_wrapper - 20250331T140836-0400:  Epoch 166/200:
+logging_wrapper -     epoch train loss = 0.001432. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.213950. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8219895287958116', 'f1_score: 0.8913738019169329', 'roc_auc_score: 0.8125301204819277']
+logging_wrapper - 20250331T140840-0400:  Epoch 167/200:
+logging_wrapper -     epoch train loss = 0.001186. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.230572. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8842443729903537', 'roc_auc_score: 0.8105421686746989']
+logging_wrapper - 20250331T140843-0400:  Epoch 168/200:
+logging_wrapper -     epoch train loss = 0.001364. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.278380. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8770226537216829', 'roc_auc_score: 0.8228313253012048']
+logging_wrapper - 20250331T140846-0400:  Epoch 169/200:
+logging_wrapper -     epoch train loss = 0.001253. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.269529. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8820678513731826', 'roc_auc_score: 0.7984939759036145']
+logging_wrapper - 20250331T140850-0400:  Epoch 170/200:
+logging_wrapper -     epoch train loss = 0.001291. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.165640. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8899521531100478', 'roc_auc_score: 0.7986144578313252']
+logging_wrapper - 20250331T140853-0400:  Epoch 171/200:
+logging_wrapper -     epoch train loss = 0.001468. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.219199. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8115183246073299', 'f1_score: 0.8846153846153846', 'roc_auc_score: 0.8203012048192772']
+logging_wrapper - 20250331T140856-0400:  Epoch 172/200:
+logging_wrapper -     epoch train loss = 0.001478. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.179910. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8885350318471338', 'roc_auc_score: 0.7942771084337349']
+logging_wrapper - 20250331T140900-0400:  Epoch 173/200:
+logging_wrapper -     epoch train loss = 0.001201. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.249099. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8878205128205128', 'roc_auc_score: 0.8169277108433736']
+logging_wrapper - 20250331T140903-0400:  Epoch 174/200:
+logging_wrapper -     epoch train loss = 0.001425. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.143445. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8896', 'roc_auc_score: 0.8277710843373495']
+logging_wrapper - 20250331T140906-0400:  Epoch 175/200:
+logging_wrapper -     epoch train loss = 0.001211. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.214193. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7984293193717278', 'f1_score: 0.8760064412238325', 'roc_auc_score: 0.8160240963855422']
+logging_wrapper - 20250331T140910-0400:  Epoch 176/200:
+logging_wrapper -     epoch train loss = 0.001155. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.190648. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8778135048231511', 'roc_auc_score: 0.8183132530120482']
+logging_wrapper - 20250331T140913-0400:  Epoch 177/200:
+logging_wrapper -     epoch train loss = 0.001671. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.256792. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8892455858747994', 'roc_auc_score: 0.8137951807228916']
+logging_wrapper - 20250331T140916-0400:  Epoch 178/200:
+logging_wrapper -     epoch train loss = 0.021472. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 1.215115. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8828250401284109', 'roc_auc_score: 0.8042771084337349']
+logging_wrapper - 20250331T140919-0400:  Epoch 179/200:
+logging_wrapper -     epoch train loss = 0.083429. time = 3.0 seconds. lr=0.0002759459603112191
+logging_wrapper -     Test loss = 0.849686. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7722513089005235', 'f1_score: 0.8599033816425121', 'roc_auc_score: 0.7674096385542168']
+logging_wrapper - 20250331T140923-0400:  Epoch 180/200:
+logging_wrapper -     epoch train loss = 0.060389. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.795004. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7879581151832461', 'f1_score: 0.8708133971291866', 'roc_auc_score: 0.7890361445783133']
+logging_wrapper - 20250331T140926-0400:  Epoch 181/200:
+logging_wrapper -     epoch train loss = 0.033610. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.884400. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7958115183246073', 'f1_score: 0.8753993610223643', 'roc_auc_score: 0.7640361445783131']
+logging_wrapper - 20250331T140929-0400:  Epoch 182/200:
+logging_wrapper -     epoch train loss = 0.019995. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.940783. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7958115183246073', 'f1_score: 0.8765822784810127', 'roc_auc_score: 0.7646385542168674']
+logging_wrapper - 20250331T140933-0400:  Epoch 183/200:
+logging_wrapper -     epoch train loss = 0.010296. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.926501. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8871224165341812', 'roc_auc_score: 0.7868072289156626']
+logging_wrapper - 20250331T140936-0400:  Epoch 184/200:
+logging_wrapper -     epoch train loss = 0.011116. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.877526. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.819371727748691', 'f1_score: 0.8913385826771654', 'roc_auc_score: 0.7694578313253011']
+logging_wrapper - 20250331T140939-0400:  Epoch 185/200:
+logging_wrapper -     epoch train loss = 0.007589. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.890724. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8141361256544503', 'f1_score: 0.8874801901743264', 'roc_auc_score: 0.7887349397590362']
+logging_wrapper - 20250331T140943-0400:  Epoch 186/200:
+logging_wrapper -     epoch train loss = 0.006997. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.977386. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8821656050955414', 'roc_auc_score: 0.7704819277108435']
+logging_wrapper - 20250331T140946-0400:  Epoch 187/200:
+logging_wrapper -     epoch train loss = 0.006445. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 1.014486. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.879746835443038', 'roc_auc_score: 0.7809638554216866']
+logging_wrapper - 20250331T140949-0400:  Epoch 188/200:
+logging_wrapper -     epoch train loss = 0.005907. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.981828. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8010471204188482', 'f1_score: 0.8782051282051282', 'roc_auc_score: 0.7727710843373494']
+logging_wrapper - 20250331T140953-0400:  Epoch 189/200:
+logging_wrapper -     epoch train loss = 0.006938. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.902336. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.884310618066561', 'roc_auc_score: 0.7826506024096385']
+logging_wrapper - 20250331T140956-0400:  Epoch 190/200:
+logging_wrapper -     epoch train loss = 0.023876. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.908731. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7879581151832461', 'f1_score: 0.8691437802907916', 'roc_auc_score: 0.7722891566265061']
+logging_wrapper - 20250331T140959-0400:  Epoch 191/200:
+logging_wrapper -     epoch train loss = 0.012041. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.897152. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.824607329842932', 'f1_score: 0.8938193343898574', 'roc_auc_score: 0.8072289156626505']
+logging_wrapper - 20250331T141003-0400:  Epoch 192/200:
+logging_wrapper -     epoch train loss = 0.005496. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.961300. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8802588996763754', 'roc_auc_score: 0.7971084337349398']
+logging_wrapper - 20250331T141006-0400:  Epoch 193/200:
+logging_wrapper -     epoch train loss = 0.005720. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.868469. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7905759162303665', 'f1_score: 0.8701298701298701', 'roc_auc_score: 0.8019879518072288']
+logging_wrapper - 20250331T141009-0400:  Epoch 194/200:
+logging_wrapper -     epoch train loss = 0.008192. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.881574. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.806282722513089', 'f1_score: 0.8821656050955414', 'roc_auc_score: 0.7857228915662652']
+logging_wrapper - 20250331T141013-0400:  Epoch 195/200:
+logging_wrapper -     epoch train loss = 0.005078. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.925125. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8036649214659686', 'f1_score: 0.8792270531400966', 'roc_auc_score: 0.7857831325301204']
+logging_wrapper - 20250331T141016-0400:  Epoch 196/200:
+logging_wrapper -     epoch train loss = 0.003975. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 1.045630. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.7958115183246073', 'f1_score: 0.8741935483870967', 'roc_auc_score: 0.7903614457831325']
+logging_wrapper - 20250331T141019-0400:  Epoch 197/200:
+logging_wrapper -     epoch train loss = 0.003787. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.925888. time = 0.4 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8835725677830941', 'roc_auc_score: 0.7990963855421687']
+logging_wrapper - 20250331T141023-0400:  Epoch 198/200:
+logging_wrapper -     epoch train loss = 0.004768. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.992862. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8832', 'roc_auc_score: 0.783855421686747']
+logging_wrapper - 20250331T141026-0400:  Epoch 199/200:
+logging_wrapper -     epoch train loss = 0.004100. time = 3.0 seconds. lr=0.00023492382024414837
+logging_wrapper -     Test loss = 0.965000. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8089005235602095', 'f1_score: 0.8835725677830941', 'roc_auc_score: 0.7798192771084337']
+logging_wrapper - 20250331T141029-0400:  Epoch 200/200:
+logging_wrapper -     epoch train loss = 0.003737. time = 3.0 seconds. lr=0.0002000000240514055
+logging_wrapper -     Test loss = 0.925110. time = 0.3 seconds.
+logging_wrapper - Test metrics = ['accuracy_score: 0.8167539267015707', 'f1_score: 0.8888888888888888', 'roc_auc_score: 0.7902409638554216']

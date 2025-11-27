@@ -1,0 +1,72 @@
+logging_wrapper -    ==== 20250331T130040-0400.  ['train_VS_033025.py']====
+
+logging_wrapper -    --- Configurations ---
+logging_wrapper - name = Indole4D
+suffix = 
+model_name = enet2s
+model_description = EfficientNet V2 s
+dataset_name = 033124_all_GP_molecules_4D
+dataset_description = 2800 moledules
+root_data_dir = ../Data4D
+fname_indole = 033124_all_GP_molecules_4D.pickle
+fname_act = 033124_all_molecules_GP_activities.csv
+result_dir = ../Output/Results
+checkpoint_dir = ../Output/Checkpoints
+logfile_dir = ../Output/Logs
+random_seed = 42
+classes = ('Low', 'Hight')
+epochs = 10
+batch_size = 64
+split_ratio = (0.8, 0.2)
+workers = 8
+lr = 0.001
+max_lr = 0.001
+pin_memory = True
+device = cuda:0
+n_gpu = 1
+dtype = <class 'torch.cuda.FloatTensor'>
+save_model = False
+
+logging_wrapper - 20250331T130042-0400
+   --- Dataset Info ---
+   images=1528, 382.
+logging_wrapper - 20250331T130042-0400:  Epoch 1/10:
+logging_wrapper -     epoch train loss = 0.755044. time = 3.1 seconds. lr=0.0008513399516232312
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.703980. time = 0.3 seconds.
+logging_wrapper - 20250331T130045-0400:  Epoch 2/10:
+logging_wrapper -     epoch train loss = 0.607267. time = 2.9 seconds. lr=0.000724779674783349
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.625288. time = 0.3 seconds.
+logging_wrapper - 20250331T130049-0400:  Epoch 3/10:
+logging_wrapper -     epoch train loss = 0.527818. time = 2.9 seconds. lr=0.000617033860180527
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.552875. time = 0.3 seconds.
+logging_wrapper - 20250331T130052-0400:  Epoch 4/10:
+logging_wrapper -     epoch train loss = 0.481601. time = 2.9 seconds. lr=0.000525305571500212
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.524169. time = 0.3 seconds.
+logging_wrapper - 20250331T130055-0400:  Epoch 5/10:
+logging_wrapper -     epoch train loss = 0.430771. time = 2.9 seconds. lr=0.0004472136206459254
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.510926. time = 0.3 seconds.
+logging_wrapper - 20250331T130058-0400:  Epoch 6/10:
+logging_wrapper -     epoch train loss = 0.384883. time = 2.9 seconds. lr=0.000380730809411034
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.491520. time = 0.3 seconds.
+logging_wrapper - 20250331T130102-0400:  Epoch 7/10:
+logging_wrapper -     epoch train loss = 0.347593. time = 2.9 seconds. lr=0.0003241313388571143
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.479684. time = 0.3 seconds.
+logging_wrapper - 20250331T130105-0400:  Epoch 8/10:
+logging_wrapper -     epoch train loss = 0.322549. time = 2.9 seconds. lr=0.0002759459603112191
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.467892. time = 0.3 seconds.
+logging_wrapper - 20250331T130108-0400:  Epoch 9/10:
+logging_wrapper -     epoch train loss = 0.294434. time = 2.9 seconds. lr=0.00023492382024414837
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.487409. time = 0.3 seconds.
+logging_wrapper - 20250331T130111-0400:  Epoch 10/10:
+logging_wrapper -     epoch train loss = 0.257989. time = 2.9 seconds. lr=0.0002000000240514055
+logging_wrapper - test thing
+logging_wrapper -     Test loss = 0.467539. time = 0.3 seconds.
