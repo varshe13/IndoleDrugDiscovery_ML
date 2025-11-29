@@ -55,11 +55,14 @@ def chunk_h5_writing(data, batch_size, data_set_size, iteration, out_dir):
     if iteration == 0:
         with h5py.File(out_dir, 'w') as f:
             # create empty data set
-            dset = f.create_dataset('embeds', shape=(data_set_size, data.shape[1], data.shape[2], data.shape[3], data.shape[4]),
+            dset = f.create_dataset('embeds', shape=(0, data.shape[1], data.shape[2], data.shape[3], data.shape[4]),
                                     maxshape=(None, data.shape[1], data.shape[2], data.shape[3], data.shape[4]), 
                                     chunks=(batch_size, data.shape[1], data.shape[2], data.shape[3], data.shape[4]),
                                     dtype=np.float32, 
                                     compression = 'gzip')
+
+            #Resizing Dataset
+            dset.resize(dset.shape[0] + batch_size, axis=0)
             
             # add first batch of data
             dset[:batch_size, :, :, :, :] = data[:, :, :, :, :]
@@ -71,6 +74,9 @@ def chunk_h5_writing(data, batch_size, data_set_size, iteration, out_dir):
         # add more data
         with h5py.File(out_dir, 'a') as f: # USE APPEND MODE
             dset = f['embeds']
+
+            #Resizing Dataset
+            dset.resize(dset.shape[0] + batch_size, axis=0)
 
             start = dset.attrs['last_index']
             # add chunk of rows
